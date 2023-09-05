@@ -73,7 +73,7 @@
   - 该项目开源了中文医疗大模型Sunsimiao，该模型基于baichuan-7B和ChatGLM-6B底座模型在十万级高质量的中文医疗数据中微调而得。
 
 - [CareLlama (关怀羊驼)](https://github.com/itsharex/CareLlama)
-  ![](https://img.shields.io/github/stars/WangRongsheng/CareLlama.svg?style=social)
+  ![](https://img.shields.io/github/stars/itsharex/CareLlama.svg?style=social)
   - 该项目开源了医疗大模型CareLlama，同时它收集了数十个公开可用的医疗微调数据集和开放可用的医疗大语言模型以促进医疗LLM快速发展。
 
 - [DISC-MedLLM](https://github.com/FudanDISC/DISC-MedLLM)
