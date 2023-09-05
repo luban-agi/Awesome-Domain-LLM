@@ -6,6 +6,8 @@
 
 本项目旨在收集和梳理垂直领域的开源模型、数据集及评测基准。
 
+欢迎大家贡献本项目未收录的开源模型、数据集、评测基准等，一起推动大模型赋能各个领域，让这个社区更加繁荣！
+
 ## 目录
 
 - [模型](#模型)
@@ -22,6 +24,81 @@
 ## 模型
 
 ### 医疗
+
+- [DoctorGLM](https://github.com/xionghonglin/DoctorGLM)
+  ![](https://img.shields.io/github/stars/xionghonglin/DoctorGLM.svg?style=social)
+  [[paper](https://arxiv.org/abs/2304.01097)]
+  - 基于ChatGLM-6B的中文问诊模型，通过中文医疗对话数据集进行微调，实现了包括lora、p-tuningv2等微调及部署。
+
+- [BenTsao (本草)](https://github.com/SCIR-HI/Huatuo-Llama-Med-Chinese)
+  ![](https://img.shields.io/github/stars/SCIR-HI/Huatuo-Llama-Med-Chinese.svg?style=social)
+  [[paper](https://arxiv.org/abs/2304.06975)]
+  - 该项目开源了经过中文医学指令微调的大语言模型集，包括LLaMA、Alpaca-Chinese、Bloom、活字模型等。我们基于医学知识图谱以及医学文献，结合ChatGPT API构建了中文医学指令微调数据集，并以此对各种基模型进行了指令微调，提高了基模型在医疗领域的问答效果。
+  
+- [Med-ChatGLM](https://github.com/SCIR-HI/Med-ChatGLM)
+  ![](https://img.shields.io/github/stars/SCIR-HI/Med-ChatGLM.svg?style=social)
+  - 该项目开源了经过中文医学指令微调的ChatGLM-6B模型，微调数据与BenTsao相同。
+    
+- [BianQue (扁鹊)](https://github.com/scutcyr/BianQue)
+  ![](https://img.shields.io/github/stars/scutcyr/BianQue.svg?style=social)
+  - 该项目开源了生活空间健康大模型。结合当前开源的中文医疗问答数据集（MedDialog-CN、IMCS-V2、CHIP-MDCFNPC、MedDG、cMedQA2、Chinese-medical-dialogue-data），分析其中的单轮/多轮特性以及医生问询特性，结合自建的生活空间健康对话大数据，构建了千万级别规模的扁鹊健康大数据BianQueCorpus，基于扁鹊健康大数据BianQueCorpus，选择ChatGLM-6B作为初始化模型，经过全量参数的指令微调训练得到BianQue。
+    
+- [HuatuoGPT (华佗)](https://github.com/FreedomIntelligence/HuatuoGPT)
+  ![](https://img.shields.io/github/stars/FreedomIntelligence/HuatuoGPT.svg?style=social)
+  [[paper](https://arxiv.org/abs/2305.15075)]
+  - 该项目开源了医疗大模型HuatuoGPT，包括基于Baichuan-7B训练得到的HuatuoGPT-7B和基于Ziya-LLaMA-13B-Pretrain-v1训练得到的HuatuoGPT-13B。
+
+- [QiZhenGPT](https://github.com/CMKRG/QiZhenGPT)
+  ![](https://img.shields.io/github/stars/CMKRG/QiZhenGPT.svg?style=social)
+  - 本项目利用启真医学知识库构建的中文医学指令数据集，并基于此在Chinese-LLaMA-Plus-7B、CaMA-13B、ChatGLM-6B模型上进行指令精调，大幅提高了模型在中文医疗场景下效果，首先针对药品知识问答发布了评测数据集，后续计划优化疾病、手术、检验等方面的问答效果，并针对医患问答、病历自动生成等应用展开拓展。
+
+- [ChatMed](https://github.com/michael-wzhu/ChatMed)
+  ![](https://img.shields.io/github/stars/michael-wzhu/ChatMed.svg?style=social)
+  - 该项目开源了中文医疗大模型ChatMed-Consult，以中文医疗在线问诊数据集ChatMed_Consult_Dataset的50w+在线问诊+ChatGPT回复作为训练集，基于LlaMA-7b采用LoRA微调得到。
+
+- [ShenNong-TCM-LLM (神农)](https://github.com/michael-wzhu/ShenNong-TCM-LLM)
+  ![](https://img.shields.io/github/stars/michael-wzhu/ShenNong-TCM-LLM.svg?style=social)
+  - 该项目开源了中文中医药大模型ShenNong-TCM-LLM，以开源的中医药知识图谱为基础，采用以实体为中心的自指令方法，调用ChatGPT得到2.6w+中医药指令数据集ChatMed_TCM_Dataset，基于该数据集以LlaMA为底座，采用LoRA微调得到。
+
+- [XrayGLM](https://github.com/WangRongsheng/XrayGLM)
+  ![](https://img.shields.io/github/stars/WangRongsheng/XrayGLM.svg?style=social)
+  - 该项目开源了中文多模态医学数据集及模型，其在医学影像诊断和多轮交互对话上显示出了非凡的潜力。
+
+- [MedicalGPT](https://github.com/shibing624/MedicalGPT)
+  ![](https://img.shields.io/github/stars/shibing624/MedicalGPT.svg?style=social)
+  - 该项目开源了医疗大模型MedicalGPT，实现了包括增量预训练、有监督微调、RLHF(奖励建模、强化学习训练)和DPO(直接偏好优化)。
+
+- [Sunsimiao (孙思邈)](https://github.com/thomas-yanxin/Sunsimiao)
+  ![](https://img.shields.io/github/stars/thomas-yanxin/Sunsimiao.svg?style=social)
+  - 该项目开源了中文医疗大模型Sunsimiao，该模型基于baichuan-7B和ChatGLM-6B底座模型在十万级高质量的中文医疗数据中微调而得。
+
+- [CareLlama (关怀羊驼)](https://github.com/itsharex/CareLlama)
+  ![](https://img.shields.io/github/stars/WangRongsheng/CareLlama.svg?style=social)
+  - 该项目开源了医疗大模型CareLlama，同时它收集了数十个公开可用的医疗微调数据集和开放可用的医疗大语言模型以促进医疗LLM快速发展。
+
+- [DISC-MedLLM](https://github.com/FudanDISC/DISC-MedLLM)
+  ![](https://img.shields.io/github/stars/FudanDISC/DISC-MedLLM.svg?style=social)
+  [[paper](https://arxiv.org/abs/2308.14346)]
+  - 该项目是由复旦大学发布的针对医疗健康对话式场景而设计的医疗领域大模型与数据集，该模型由DISC-Med-SFT数据集基于Baichuan-13B-Base指令微调得到，有效地对齐了医疗场景下的人类偏好，弥合了通用语言模型输出与真实世界医疗对话之间的差距。
+
+clinicalGPT
+PMC-LLaMA
+ChatDoctor
+MedicalGPT_zh
+OpenBioMed
+
+- [MeChat](https://github.com/qiuhuachuan/smile)
+  ![](https://img.shields.io/github/stars/qiuhuachuan/smile.svg?style=social)
+  - 该项目开源了中文心理健康支持对话大模型与数据集。模型由ChatGLM-6B LoRA 16-bit指令微调得到。数据集通过ChatGPT改写真实的心理互助QA为多轮的心理健康支持多轮对话，该数据集含有56k个多轮对话，其对话主题、词汇和篇章语义更加丰富多样，更加符合在长程多轮对话的应用场景。
+  
+- [SoulChat (灵心)](https://github.com/scutcyr/SoulChat)
+  ![](https://img.shields.io/github/stars/scutcyr/SoulChat.svg?style=social)
+  - 该项目开源了心理健康大模型灵心（SoulChat），该模型以ChatGLM-6B作为初始化模型，经过百万规模心理咨询领域中文长文本指令与多轮共情对话数据联合指令微调得到。
+
+- [QiaoBan (巧板)](https://github.com/HIT-SCIR-SC/QiaoBan)
+  ![](https://img.shields.io/github/stars/HIT-SCIR-SC/QiaoBan.svg?style=social)
+  - 该项目开源了儿童情感对话大模型，基于开源通用大模型，使用通用域人机对话、单轮指令数据以及儿童情感陪伴对话数据进行指令微调，研发出适用于儿童情感陪伴的大模型。
+
 
 ### 法律
 
@@ -97,10 +174,6 @@
   - 该项目开源了针对教育垂直领域的对话大模型，主要研究以预训练大模型为基底的教育对话大模型相关技术，融合多样化的教育垂直领域数据，辅以指令微调、价值观对齐等方法，提供教育场景下自动出题、作业批改、情感支持、课程辅导、高考咨询等丰富功能，服务于广大老师、学生和家长群体，助力实现因材施教、公平公正、富有温度的智能教育。
 
 ### 其他
-
-- [QiaoBan (巧板)](https://github.com/HIT-SCIR-SC/QiaoBan)
-  ![](https://img.shields.io/github/stars/HIT-SCIR-SC/QiaoBan.svg?style=social)
-  - 该项目开源了儿童情感对话大模型，基于开源通用大模型，使用通用域人机对话、单轮指令数据以及儿童情感陪伴对话数据进行指令微调，研发出适用于儿童情感陪伴的大模型。
 
 - [MediaGPT](https://github.com/IMOSR/MediaGPT)
   ![](https://img.shields.io/github/stars/IMOSR/MediaGPT.svg?style=social)
