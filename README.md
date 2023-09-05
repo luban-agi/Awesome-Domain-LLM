@@ -186,24 +186,29 @@
 
 - [MediaGPT](https://github.com/IMOSR/MediaGPT)
   ![](https://img.shields.io/github/stars/IMOSR/MediaGPT.svg?style=social)
+  ![](https://img.shields.io/badge/自媒体-blue) 
   - 该项目开源了中文自媒体大模型，首先在大规模自媒体语料上进行连续预训练，系统地学习自媒体的知识体系。然后，借助ChatGPT收集了一批关于抖音运营、短视频创作、巨量千川投放、直播运营和直播话术技巧等领域知识问题的分析和回答，并利用这些数据对模型进行指令微调，使模型习得如何将自媒体知识应用到实际场景中。
 
 - [EcomGPT](https://github.com/Alibaba-NLP/EcomGPT)
   ![](https://img.shields.io/github/stars/Alibaba-NLP/EcomGPT.svg?style=social)
   [[paper](https://arxiv.org/abs/2308.06966)]
+  ![](https://img.shields.io/badge/电商-blue) 
   - 该项目开源了电商大模型，基于BLOOMZ在电商领域指令微调数据集EcomInstruct进行微调，在12个电商评测数据集上的人工评估超过ChatGPT。
 
 - [StarGLM](https://github.com/Yu-Yang-Li/StarGLM)
   ![](https://img.shields.io/github/stars/Yu-Yang-Li/StarGLM.svg?style=social)
+  ![](https://img.shields.io/badge/天文-blue) 
   - 该项目开源了天文大模型，整合司天工程相关的语料数据与知识库资料，训练得到天文大模型StarGLM，以期缓解大语言模型在天文通用知识和部分前沿变星领域的幻觉现象，为接下来可处理天文多模态任务、部署于望远镜阵列的观测Agent——司天大脑（数据智能处理）打下基础。
 
 - [TransGPT (致远)](https://github.com/DUOMO/TransGPT)
   ![](https://img.shields.io/github/stars/DUOMO/TransGPT.svg?style=social)
+  ![](https://img.shields.io/badge/交通-blue) 
   - 该项目开源了交通大模型，主要致力于在真实交通行业中发挥实际价值。它能够实现交通情况预测、智能咨询助手、公共交通服务、交通规划设计、交通安全教育、协助管理、交通事故报告和分析、自动驾驶辅助系统等功能。TransGPT作为一个通用常识交通大模型，可以为道路工程、桥梁工程、隧道工程、公路运输、水路运输、城市公共交通运输、交通运输经济、交通运输安全等行业提供通识常识。以此为基础，可以落脚到特定的交通应用场景中。
 
 - [Mozi (墨子)](https://github.com/gmftbyGMFTBY/science-llm)
   ![](https://img.shields.io/github/stars/gmftbyGMFTBY/science-llm.svg?style=social)
   [[paper](https://github.com/gmftbyGMFTBY/science-llm/blob/main/asset/mozi_technical_report.pdf)]
+  ![](https://img.shields.io/badge/论文-blue) 
   - 该项目开源了科技论文大模型，可以用于科技文献的问答和情感支持。
 
 - [OpenBioMed](https://github.com/PharMolix/OpenBioMed)
@@ -211,6 +216,7 @@
   [[paper](https://arxiv.org/abs/2308.09442)]
   [[paper](https://arxiv.org/abs/2307.09484)]
   [[paper](https://arxiv.org/abs/2306.04371)]
+  ![](https://img.shields.io/badge/生物医学-blue) 
   - 该项目开源了若干多模态生物医学大模型，包括多模态生物医药大模型BioMedGPT、多模态小分子基础模型DrugFM和MolFM、细胞表示学习模型CellLM等。
     
 ## 数据集
