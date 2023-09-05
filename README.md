@@ -52,7 +52,7 @@
 
 - [QiZhenGPT](https://github.com/CMKRG/QiZhenGPT)
   ![](https://img.shields.io/github/stars/CMKRG/QiZhenGPT.svg?style=social)
-  - 本项目利用启真医学知识库构建的中文医学指令数据集，并基于此在Chinese-LLaMA-Plus-7B、CaMA-13B、ChatGLM-6B模型上进行指令精调，大幅提高了模型在中文医疗场景下效果，首先针对药品知识问答发布了评测数据集，后续计划优化疾病、手术、检验等方面的问答效果，并针对医患问答、病历自动生成等应用展开拓展。
+  - 该项目利用启真医学知识库构建的中文医学指令数据集，并基于此在Chinese-LLaMA-Plus-7B、CaMA-13B、ChatGLM-6B模型上进行指令精调，大幅提高了模型在中文医疗场景下效果。
 
 - [ChatMed](https://github.com/michael-wzhu/ChatMed)
   ![](https://img.shields.io/github/stars/michael-wzhu/ChatMed.svg?style=social)
@@ -107,8 +107,7 @@
 
 - [QiaoBan (巧板)](https://github.com/HIT-SCIR-SC/QiaoBan)
   ![](https://img.shields.io/github/stars/HIT-SCIR-SC/QiaoBan.svg?style=social)
-  - 该项目开源了儿童情感对话大模型，基于开源通用大模型，使用通用域人机对话、单轮指令数据以及儿童情感陪伴对话数据进行指令微调，研发出适用于儿童情感陪伴的大模型。
-
+  - 该项目开源了儿童情感对话大模型QiaoBan，基于开源通用大模型，使用通用域人机对话、单轮指令数据以及儿童情感陪伴对话数据进行指令微调，研发出适用于儿童情感陪伴的大模型。
 
 ### 法律
 
@@ -127,7 +126,7 @@
 - [Lawyer LLaMA](https://github.com/AndrewZhe/lawyer-llama)
   ![](https://img.shields.io/github/stars/AndrewZhe/lawyer-llama.svg?style=social)
   [[paper](https://arxiv.org/abs/2305.15062)]
-  - 开源了法律领域的指令微调数据和基于LLaMA训练的中文法律大模型Lawyer LLaMA。Lawyer LLaMA首先在大规模法律语料上进行了预训练，让它系统的学习中国的法律知识体系。在此基础上，借助ChatGPT收集了一批对中国国家统一法律职业资格考试客观题的分析和对法律咨询的回答，利用收集到的数据对模型进行指令微调，让模型习得将法律知识应用到具体场景中的能力。
+  - 该项目开源了法律领域的指令微调数据和基于LLaMA训练的中文法律大模型Lawyer LLaMA。Lawyer LLaMA首先在大规模法律语料上进行了预训练，让它系统的学习中国的法律知识体系。在此基础上，借助ChatGPT收集了一批对中国国家统一法律职业资格考试客观题的分析和对法律咨询的回答，利用收集到的数据对模型进行指令微调，让模型习得将法律知识应用到具体场景中的能力。
 
 - [HanFei (韩非)](https://github.com/siat-nlp/HanFei)
   ![](https://img.shields.io/github/stars/siat-nlp/HanFei.svg?style=social)
@@ -144,7 +143,7 @@
 
 - [wisdomInterrogatory (智海-录问)](https://github.com/zhihaiLLM/wisdomInterrogatory)
   ![](https://img.shields.io/github/stars/zhihaiLLM/wisdomInterrogatory.svg?style=social)
-  - 由浙江大学、阿里巴巴达摩院以及华院计算三家单位共同设计研发的法律大模型，基于Baichuan-7B进行了法律领域数据的二次预训练与指令微调，并设计了知识增强的推理流程。核心思想：以“普法共享和司法效能提升”为目标，从推动法律智能化体系入司法实践、数字化案例建设、虚拟法律咨询服务赋能等方面提供支持，形成数字化和智能化的司法基座能力。
+  - 由浙江大学、阿里巴巴达摩院以及华院计算三家单位共同设计研发的法律大模型，基于Baichuan-7B进行了法律领域数据的二次预训练与指令微调，并设计了知识增强的推理流程。
 
 ### 金融
 
@@ -213,8 +212,6 @@
   [[paper](https://arxiv.org/abs/2307.09484)]
   [[paper](https://arxiv.org/abs/2306.04371)]
   - 该项目开源了若干多模态生物医学大模型，包括多模态生物医药大模型BioMedGPT、多模态小分子基础模型DrugFM和MolFM、细胞表示学习模型CellLM等。
-    
-
     
 ## 数据集
 
