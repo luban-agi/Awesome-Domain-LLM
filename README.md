@@ -81,11 +81,19 @@
   [[paper](https://arxiv.org/abs/2308.14346)]
   - 该项目是由复旦大学发布的针对医疗健康对话式场景而设计的医疗领域大模型与数据集，该模型由DISC-Med-SFT数据集基于Baichuan-13B-Base指令微调得到，有效地对齐了医疗场景下的人类偏好，弥合了通用语言模型输出与真实世界医疗对话之间的差距。
 
-clinicalGPT
-PMC-LLaMA
-ChatDoctor
-MedicalGPT_zh
-OpenBioMed
+- [PMC-LLaMA](https://github.com/chaoyi-wu/PMC-LLaMA)
+  ![](https://img.shields.io/github/stars/chaoyi-wu/PMC-LLaMA.svg?style=social)
+  [[paper](https://arxiv.org/abs/2304.14454)]
+  - 该项目开源了医疗大模型PMC-LLaMA，包括预训练版本的MedLLaMA_13B和指令微调版本的PMC_LLaMA_13B。
+
+- [ChatDoctor](https://github.com/Kent0n-Li/ChatDoctor)
+  ![](https://img.shields.io/github/stars/Kent0n-Li/ChatDoctor.svg?style=social)
+  [[paper](https://arxiv.org/abs/2303.14070)]
+  - 该项目开源了医疗大模型ChatDoctor，在LLaMA的基础上训练得到。
+
+- [MING (明医)](https://github.com/189569400/MedicalGPT-zh)
+  ![](https://img.shields.io/github/stars/189569400/MedicalGPT-zh.svg?style=social)
+  - 该项目开源了医疗大模型MING，基于bloomz-7b指令微调得到MING-7B，支持医疗问答、智能问诊等功能。
 
 - [MeChat](https://github.com/qiuhuachuan/smile)
   ![](https://img.shields.io/github/stars/qiuhuachuan/smile.svg?style=social)
@@ -196,6 +204,15 @@ OpenBioMed
   ![](https://img.shields.io/github/stars/gmftbyGMFTBY/science-llm.svg?style=social)
   [[paper](https://github.com/gmftbyGMFTBY/science-llm/blob/main/asset/mozi_technical_report.pdf)]
   - 该项目开源了科技论文大模型，可以用于科技文献的问答和情感支持。
+
+- [OpenBioMed](https://github.com/PharMolix/OpenBioMed)
+  ![](https://img.shields.io/github/stars/PharMolix/OpenBioMed.svg?style=social)
+  [[paper](https://arxiv.org/abs/2308.09442)]
+  [[paper](https://arxiv.org/abs/2307.09484)]
+  [[paper](https://arxiv.org/abs/2306.04371)]
+  - 该项目开源了若干多模态生物医学大模型，包括多模态生物医药大模型BioMedGPT、多模态小分子基础模型DrugFM和MolFM、细胞表示学习模型CellLM等。
+    
+
     
 ## 数据集
 
