@@ -95,6 +95,14 @@
   ![](https://img.shields.io/github/stars/189569400/MedicalGPT-zh.svg?style=social)
   - 该项目开源了医疗大模型MING，基于bloomz-7b指令微调得到MING-7B，支持医疗问答、智能问诊等功能。
 
+- [IvyGPT](https://github.com/WangRongsheng/IvyGPT)
+  ![](https://img.shields.io/github/stars/WangRongsheng/IvyGPT.svg?style=social)
+  - 该项目开源了医疗大模型IvyGPT，它在高质量的医学问答数据上进行了监督微调，并使用人类反馈的强化学习进行了训练。
+
+- [PULSE](https://github.com/openmedlab/PULSE)
+  ![](https://img.shields.io/github/stars/openmedlab/PULSE.svg?style=social)
+  - 该项目开源了中文医疗大模型IvyGPT，该模型使用约4,000,000个中文医学领域和通用领域的指令微调数据进行微调，支持医学领域的各种自然语言处理任务，包括健康教育、医师考试问题、报告解读、医疗记录结构化以及模拟诊断和治疗。
+
 - [MeChat](https://github.com/qiuhuachuan/smile)
   ![](https://img.shields.io/github/stars/qiuhuachuan/smile.svg?style=social)
   - 该项目开源了中文心理健康支持对话大模型与数据集。模型由ChatGLM-6B LoRA 16-bit指令微调得到。数据集通过ChatGPT改写真实的心理互助QA为多轮的心理健康支持多轮对话，该数据集含有56k个多轮对话，其对话主题、词汇和篇章语义更加丰富多样，更加符合在长程多轮对话的应用场景。
@@ -240,9 +248,9 @@
 
 - [OpenBioMed](https://github.com/PharMolix/OpenBioMed)
   ![](https://img.shields.io/github/stars/PharMolix/OpenBioMed.svg?style=social)
-  [[paper](https://arxiv.org/abs/2308.09442)]
-  [[paper](https://arxiv.org/abs/2307.09484)]
-  [[paper](https://arxiv.org/abs/2306.04371)]
+  [[paper1](https://arxiv.org/abs/2308.09442)]
+  [[paper2](https://arxiv.org/abs/2307.09484)]
+  [[paper3](https://arxiv.org/abs/2306.04371)]
   ![](https://img.shields.io/badge/生物医学-blue) 
   - 该项目开源了若干多模态生物医学大模型，包括多模态生物医药大模型BioMedGPT、多模态小分子基础模型DrugFM和MolFM、细胞表示学习模型CellLM等。
 
