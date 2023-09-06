@@ -221,11 +221,25 @@
     
 ## 数据集
 
-### 预训练数据集
-
-### 微调数据集
-
 ## 评测基准
+
+- [C-Eval](https://github.com/SJTU-LIT/ceval)
+  ![](https://img.shields.io/github/stars/SJTU-LIT/ceval.svg?style=social)
+  [[paper](https://arxiv.org/abs/2305.08322)]
+  ![](https://img.shields.io/badge/多学科-blue) 
+  - C-Eval是一个由上海交通大学发布的中文基础模型评测基准，包含了13948个多项选择题，涵盖了人文，社科，理工，其他专业四个大方向，52个不同的学科，从中学到大学研究生以及职业考试。
+
+- [AGIEval](https://github.com/microsoft/AGIEval)
+  ![](https://img.shields.io/github/stars/microsoft/AGIEval.svg?style=social)
+  [[paper](https://arxiv.org/abs/2304.06364)]
+  ![](https://img.shields.io/badge/多学科-blue) 
+  - AGIEval是一个由微软发布的评测基准，用于评估基础模型在人类认知任务中的表现，包含了20个面向普通考生的官方、公开、高标准入学和资格考试，包括普通大学入学考试（中国高考和美国SAT考试）、法学院入学考试、数学竞赛和律师资格考试、国家公务员考试等。
+
+ - [AGIEval](https://github.com/mikegu721/xiezhibenchmark)
+  ![](https://img.shields.io/github/stars/mikegu721/xiezhibenchmark.svg?style=social)
+  [[paper](https://arxiv.org/abs/2306.05783)]
+  ![](https://img.shields.io/badge/多学科-blue) 
+  - AGIEval是一个由复旦大学发布的综合的、多学科的、能够自动更新的领域知识评测基准，包含了哲学、经济学、法学、教育学、文学、历史学、自然科学、工学、农学、医学、军事学、管理学、艺术学这13个学科门类，24万道学科题目，516个具体学科，249587道题目。
 
 [![Star History Chart](https://api.star-history.com/svg?repos=luban-agi/Awesome-Domain-LLM&type=Date)](https://star-history.com/#luban-agi/Awesome-Domain-LLM&Date)
 
