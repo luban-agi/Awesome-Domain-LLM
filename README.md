@@ -19,8 +19,6 @@
   - [教育](#教育)
   - [其他](#其他)
 - [数据集](#数据集)
-  - [预训练数据集](#预训练数据集)
-  - [微调数据集](#微调数据集)
 - [评测基准](#评测基准)
 
 ## 模型
@@ -241,5 +239,29 @@
   ![](https://img.shields.io/badge/多学科-blue) 
   - AGIEval是一个由复旦大学发布的综合的、多学科的、能够自动更新的领域知识评测基准，包含了哲学、经济学、法学、教育学、文学、历史学、自然科学、工学、农学、医学、军事学、管理学、艺术学这13个学科门类，24万道学科题目，516个具体学科，249587道题目。
 
+ - [CMMLU](https://github.com/haonan-li/CMMLU)
+  ![](https://img.shields.io/github/stars/haonan-li/CMMLU.svg?style=social)
+  [[paper](https://arxiv.org/abs/2306.09212)]
+  ![](https://img.shields.io/badge/多学科-blue) 
+  - CMMLU是一个综合性的中文评测基准，专门用于评估语言模型在中文语境下的知识和推理能力。CMMLU涵盖了从基础学科到高级专业水平的67个主题。它包括：需要计算和推理的自然科学，需要知识的人文科学和社会科学,以及需要生活常识的中国驾驶规则等。此外，CMMLU中的许多任务具有中国特定的答案，可能在其他地区或语言中并不普遍适用。因此是一个完全中国化的中文测试基准。
+
+ - [MMCU](https://github.com/Felixgithub2017/MMCU)
+  ![](https://img.shields.io/github/stars/Felixgithub2017/MMCU.svg?style=social)
+  [[paper](https://arxiv.org/abs/2304.12986)]
+  ![](https://img.shields.io/badge/多学科-blue) 
+  - MMCU是一个综合性的中文评测基准，包括来自医学、法律、心理学和教育等四大领域的测试。
+
+ - [CG-Eval](https://github.com/Felixgithub2017/CG-Eval)
+  ![](https://img.shields.io/github/stars/Felixgithub2017/CG-Eval.svg?style=social)
+  [[paper](https://arxiv.org/abs/2308.04823)]
+  ![](https://img.shields.io/badge/多学科-blue) 
+  - CG-Eval是一个由甲骨易AI研究院与LanguageX AI Lab联合发布的针对中文大模型生成能力的评测基准。包含了科技与工程、人文与社会科学、数学计算、医师资格考试、司法考试、注册会计师考试等六个大科目类别下的55个子科目的11000道不同类型问题。CG-Eval包含一套复合的打分系统：对于非计算题，每一道名词解释题和简答题都有标准参考答案，采用多个标准打分然后加权求和；对于计算题目，会提取最终计算结果和解题过程，然后综合打分。
+
+ - [PromptCBLUE](https://github.com/michael-wzhu/PromptCBLUE)
+  ![](https://img.shields.io/github/stars/michael-wzhu/PromptCBLUE.svg?style=social)
+  [[paper](https://arxiv.org/abs/2308.04823)]
+  ![](https://img.shields.io/badge/多学科-blue) 
+  - PromptCBLUE是一个面向中文医疗场景的评测基准，通过对CBLUE基准进行二次开发，将16种不同的医疗场景NLP任务全部转化为基于提示的语言生成任务。
+    
 [![Star History Chart](https://api.star-history.com/svg?repos=luban-agi/Awesome-Domain-LLM&type=Date)](https://star-history.com/#luban-agi/Awesome-Domain-LLM&Date)
 
