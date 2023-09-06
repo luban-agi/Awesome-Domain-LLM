@@ -101,7 +101,11 @@
   
 - [SoulChat (灵心)](https://github.com/scutcyr/SoulChat)
   ![](https://img.shields.io/github/stars/scutcyr/SoulChat.svg?style=social)
-  - 该项目开源了心理健康大模型灵心（SoulChat），该模型以ChatGLM-6B作为初始化模型，经过百万规模心理咨询领域中文长文本指令与多轮共情对话数据联合指令微调得到。
+  - 该项目开源了心理健康大模型SoulChat (灵心)，该模型以ChatGLM-6B作为初始化模型，经过百万规模心理咨询领域中文长文本指令与多轮共情对话数据联合指令微调得到。
+
+- [MindChat (漫谈)](https://github.com/X-D-Lab/MindChat)
+  ![](https://img.shields.io/github/stars/X-D-Lab/MindChat.svg?style=social)
+  - 该项目开源了心理大模型MindChat (漫谈)，该模型采用了经过人工清洗的约20万条的高质量多轮心理对话数据进行训练，涵盖工作、家庭、学习、生活、社交、安全等多个方面，期望从心理咨询、心理评估、心理诊断、心理治疗四个维度帮助人们纾解心理压力与解决心理困惑, 提高心理健康水平. 
 
 - [QiaoBan (巧板)](https://github.com/HIT-SCIR-SC/QiaoBan)
   ![](https://img.shields.io/github/stars/HIT-SCIR-SC/QiaoBan.svg?style=social)
@@ -142,6 +146,10 @@
 - [wisdomInterrogatory (智海-录问)](https://github.com/zhihaiLLM/wisdomInterrogatory)
   ![](https://img.shields.io/github/stars/zhihaiLLM/wisdomInterrogatory.svg?style=social)
   - 由浙江大学、阿里巴巴达摩院以及华院计算三家单位共同设计研发的法律大模型，基于Baichuan-7B进行了法律领域数据的二次预训练与指令微调，并设计了知识增强的推理流程。
+
+- [JurisLMs](https://github.com/seudl/JurisLMs)
+  ![](https://img.shields.io/github/stars/seudl/JurisLMs.svg?style=social)
+  - 该项目基于中文法学语料训练了一系列语言模型，包括: 1) 可解释法律判决预测模型AI Judge，由GPT2在法学语料上进一步预训练之后，结合一个法条适用模型（一个基于BERT的分类器）微调得到，不仅能够给出判决结果，还能给出相应的法院观点; 2) 智能法律咨询模型AI Lawyer，采用主动学习在少量数据上进行微调得到，可以根据用户咨询适用正确的法律法规回答问题。
 
 ### 金融
 
@@ -202,6 +210,12 @@
   ![](https://img.shields.io/github/stars/Yu-Yang-Li/StarGLM.svg?style=social)
   ![](https://img.shields.io/badge/天文-blue) 
   - 该项目开源了天文大模型，整合司天工程相关的语料数据与知识库资料，训练得到天文大模型StarGLM，以期缓解大语言模型在天文通用知识和部分前沿变星领域的幻觉现象，为接下来可处理天文多模态任务、部署于望远镜阵列的观测Agent——司天大脑（数据智能处理）打下基础。
+
+- [K2](https://github.com/davendw49/k2)
+  ![](https://img.shields.io/github/stars/davendw49/k2.svg?style=social)
+  [[paper](https://arxiv.org/abs/2306.05064)]
+  ![](https://img.shields.io/badge/地球科学-blue) 
+  - 该项目开源了地球科学大模型，该模型在LLaMA的基础上使用地球科学文献和维基百科数据进行预训练，然后使用GeoSignal数据集进行指令微调。
 
 - [TransGPT (致远)](https://github.com/DUOMO/TransGPT)
   ![](https://img.shields.io/github/stars/DUOMO/TransGPT.svg?style=social)
