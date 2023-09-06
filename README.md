@@ -231,37 +231,42 @@
   ![](https://img.shields.io/github/stars/microsoft/AGIEval.svg?style=social)
   [[paper](https://arxiv.org/abs/2304.06364)]
   ![](https://img.shields.io/badge/多学科-blue) 
-  - AGIEval是一个由微软发布的评测基准，用于评估基础模型在人类认知任务中的表现，包含了20个面向普通考生的官方、公开、高标准入学和资格考试，包括普通大学入学考试（中国高考和美国SAT考试）、法学院入学考试、数学竞赛和律师资格考试、国家公务员考试等。
+  - AGIEval是一个由微软发布的评测基准，用于评估基础模型在人类认知任务中的表现，包含了20个面向普通考生的官方、公开、高标准入学和资格考试，包括普通大学入学考试 (中国高考和美国SAT考试)、法学院入学考试、数学竞赛和律师资格考试、国家公务员考试等。
 
- - [AGIEval](https://github.com/mikegu721/xiezhibenchmark)
+- [Xiezhi (獬豸)](https://github.com/mikegu721/xiezhibenchmark)
   ![](https://img.shields.io/github/stars/mikegu721/xiezhibenchmark.svg?style=social)
   [[paper](https://arxiv.org/abs/2306.05783)]
   ![](https://img.shields.io/badge/多学科-blue) 
-  - AGIEval是一个由复旦大学发布的综合的、多学科的、能够自动更新的领域知识评测基准，包含了哲学、经济学、法学、教育学、文学、历史学、自然科学、工学、农学、医学、军事学、管理学、艺术学这13个学科门类，24万道学科题目，516个具体学科，249587道题目。
+  - Xiezhi是一个由复旦大学发布的综合的、多学科的、能够自动更新的领域知识评测基准，包含了哲学、经济学、法学、教育学、文学、历史学、自然科学、工学、农学、医学、军事学、管理学、艺术学这13个学科门类，24万道学科题目，516个具体学科，249587道题目。
 
- - [CMMLU](https://github.com/haonan-li/CMMLU)
+- [CMMLU](https://github.com/haonan-li/CMMLU)
   ![](https://img.shields.io/github/stars/haonan-li/CMMLU.svg?style=social)
   [[paper](https://arxiv.org/abs/2306.09212)]
   ![](https://img.shields.io/badge/多学科-blue) 
   - CMMLU是一个综合性的中文评测基准，专门用于评估语言模型在中文语境下的知识和推理能力。CMMLU涵盖了从基础学科到高级专业水平的67个主题。它包括：需要计算和推理的自然科学，需要知识的人文科学和社会科学,以及需要生活常识的中国驾驶规则等。此外，CMMLU中的许多任务具有中国特定的答案，可能在其他地区或语言中并不普遍适用。因此是一个完全中国化的中文测试基准。
 
- - [MMCU](https://github.com/Felixgithub2017/MMCU)
+- [MMCU](https://github.com/Felixgithub2017/MMCU)
   ![](https://img.shields.io/github/stars/Felixgithub2017/MMCU.svg?style=social)
   [[paper](https://arxiv.org/abs/2304.12986)]
   ![](https://img.shields.io/badge/多学科-blue) 
   - MMCU是一个综合性的中文评测基准，包括来自医学、法律、心理学和教育等四大领域的测试。
 
- - [CG-Eval](https://github.com/Felixgithub2017/CG-Eval)
+- [CG-Eval](https://github.com/Felixgithub2017/CG-Eval)
   ![](https://img.shields.io/github/stars/Felixgithub2017/CG-Eval.svg?style=social)
   [[paper](https://arxiv.org/abs/2308.04823)]
   ![](https://img.shields.io/badge/多学科-blue) 
   - CG-Eval是一个由甲骨易AI研究院与LanguageX AI Lab联合发布的针对中文大模型生成能力的评测基准。包含了科技与工程、人文与社会科学、数学计算、医师资格考试、司法考试、注册会计师考试等六个大科目类别下的55个子科目的11000道不同类型问题。CG-Eval包含一套复合的打分系统：对于非计算题，每一道名词解释题和简答题都有标准参考答案，采用多个标准打分然后加权求和；对于计算题目，会提取最终计算结果和解题过程，然后综合打分。
 
- - [PromptCBLUE](https://github.com/michael-wzhu/PromptCBLUE)
+- [PromptCBLUE](https://github.com/michael-wzhu/PromptCBLUE)
   ![](https://img.shields.io/github/stars/michael-wzhu/PromptCBLUE.svg?style=social)
   [[paper](https://arxiv.org/abs/2308.04823)]
-  ![](https://img.shields.io/badge/多学科-blue) 
+  ![](https://img.shields.io/badge/医疗-blue) 
   - PromptCBLUE是一个面向中文医疗场景的评测基准，通过对CBLUE基准进行二次开发，将16种不同的医疗场景NLP任务全部转化为基于提示的语言生成任务。
+
+- [GeoGLUE](https://modelscope.cn/datasets/damo/GeoGLUE/summary)
+  [[paper](https://arxiv.org/abs/2305.06545)]
+  ![](https://img.shields.io/badge/地理-blue) 
+  - GeoGLUE是一个由阿里巴巴达摩院与高德联合发布的地理语义理解能力评测基准，旨在推动地理相关文本处理技术和社区的发展。本榜单提炼了其中多个典型场景：地图搜索、电商物流、政府登记、金融交通，并设计了六个核心任务：门址地址要素解析、地理实体对齐、Query-POI库召回、Query-POI相关性排序、地址Query成分分析、WhereWhat切分。
     
 [![Star History Chart](https://api.star-history.com/svg?repos=luban-agi/Awesome-Domain-LLM&type=Date)](https://star-history.com/#luban-agi/Awesome-Domain-LLM&Date)
 
