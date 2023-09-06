@@ -168,6 +168,11 @@
   ![](https://img.shields.io/github/stars/AI4Finance-Foundation/FinGPT.svg?style=social)
   [[paper](https://arxiv.org/abs/2306.06031)]
   - 该项目开源了多个金融大模型，包括ChatGLM2-6B+LoRA和LLaMA2-7B+LoRA等金融大模型，收集了包括金融新闻、社交媒体、财报等中英文训练数据。
+ 
+- [FLANG](https://github.com/SALT-NLP/FLANG)
+  ![](https://img.shields.io/github/stars/SALT-NLP/FLANG.svg?style=social)
+  [[paper](https://arxiv.org/abs/2211.00083)]
+  - 该项目开源了金融大模型FLANG和评测基准FLUE。
 
 ### 教育
 
@@ -280,7 +285,13 @@
   [[paper](https://arxiv.org/abs/2302.09432)]
   ![](https://img.shields.io/badge/金融-blue) 
   - CFLEB是一个中文金融评测基准，包含两项语言生成任务和四项语言理解任务。
-    
+
+- [FLUE](https://github.com/SALT-NLP/FLANG)
+  ![](https://img.shields.io/github/stars/SALT-NLP/FLANG.svg?style=social)
+  [[paper](https://arxiv.org/abs/2211.00083)]
+  ![](https://img.shields.io/badge/金融-blue)
+  - FLUE是一个金融评测基准，包含5个金融领域数据集。
+  
 - [GeoGLUE](https://modelscope.cn/datasets/damo/GeoGLUE/summary)
   [[paper](https://arxiv.org/abs/2305.06545)]
   ![](https://img.shields.io/badge/地理-blue) 
