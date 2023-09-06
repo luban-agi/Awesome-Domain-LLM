@@ -101,7 +101,19 @@
 
 - [PULSE](https://github.com/openmedlab/PULSE)
   ![](https://img.shields.io/github/stars/openmedlab/PULSE.svg?style=social)
-  - 该项目开源了中文医疗大模型IvyGPT，该模型使用约4,000,000个中文医学领域和通用领域的指令微调数据进行微调，支持医学领域的各种自然语言处理任务，包括健康教育、医师考试问题、报告解读、医疗记录结构化以及模拟诊断和治疗。
+  - 该项目开源了中文医疗大模型PULSE，该模型使用约4,000,000个中文医学领域和通用领域的指令微调数据进行微调，支持医学领域的各种自然语言处理任务，包括健康教育、医师考试问题、报告解读、医疗记录结构化以及模拟诊断和治疗。
+
+- [HuangDI (皇帝)](https://github.com/Zlasejd/HuangDI)
+  ![](https://img.shields.io/github/stars/Zlasejd/HuangDI.svg?style=social)
+  - 该项目开源了中医大模型HuangDI (皇帝)，该模型首先在Ziya-LLaMA-13B-V1基座模型的基础上加入中医教材、中医各类网站数据等语料库，训练出一个具有中医知识理解力的预训练模型，之后在此基础上通过海量的中医古籍指令对话数据及通用指令数据进行有监督微调，使得模型具备中医古籍知识问答能力。
+ 
+- [ZhongJing (仲景)](https://github.com/pariskang/CMLM-ZhongJing)
+  ![](https://img.shields.io/github/stars/pariskang/CMLM-ZhongJing.svg?style=social)
+  - 该项目开源了中医大模型ZhongJing (仲景)，该模型旨在阐明中医博大精深之知识，传承古代智慧与现代技术创新，最终为医学领域提供可信赖和专业的工具。
+
+- [TCMLLM](https://github.com/2020MEAI/TCMLLM)
+  ![](https://img.shields.io/github/stars/2020MEAI/TCMLLM.svg?style=social)
+  - 该项目拟通过大模型方式实现中医临床辅助诊疗（病证诊断、处方推荐等）中医药知识问答等任务，推动中医知识问答、临床辅助诊疗等领域的快速发展。目前针对中医临床智能诊疗问题中的处方推荐任务，发布了中医处方推荐大模型TCMLLM-PR，通过整合真实世界临床病历、医学典籍与中医教科书等数据，构建了包含68k数据条目的处方推荐指令微调数据集，在ChatGLM大模型上进行微调得到。
 
 - [MeChat](https://github.com/qiuhuachuan/smile)
   ![](https://img.shields.io/github/stars/qiuhuachuan/smile.svg?style=social)
