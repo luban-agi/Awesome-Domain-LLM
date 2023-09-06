@@ -268,6 +268,18 @@
   ![](https://img.shields.io/badge/医疗-blue) 
   - PromptCBLUE是一个面向中文医疗场景的评测基准，通过对CBLUE基准进行二次开发，将16种不同的医疗场景NLP任务全部转化为基于提示的语言生成任务。
 
+- [LEXTREME](https://github.com/JoelNiklaus/LEXTREME)
+  ![](https://img.shields.io/github/stars/JoelNiklaus/LEXTREME.svg?style=social)
+  [[paper](https://arxiv.org/abs/2301.13126)]
+  ![](https://img.shields.io/badge/法律-blue) 
+  - LEXTREME是一个多语言的法律评测基准，包含了24种语言11个评测数据集。
+
+- [LexGLUE](https://github.com/coastalcph/lex-glue)
+  ![](https://img.shields.io/github/stars/coastalcph/lex-glue.svg?style=social)
+  [[paper](https://arxiv.org/abs/2110.00976)]
+  ![](https://img.shields.io/badge/法律-blue) 
+  - LexGLUE是一个英文法律评测基准。
+    
 - [FinEval](https://github.com/SUFE-AIFLM-Lab/FinEval)
   ![](https://img.shields.io/github/stars/SUFE-AIFLM-Lab/FinEval.svg?style=social)
   [[paper](https://arxiv.org/abs/2308.09975)]
