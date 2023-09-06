@@ -225,19 +225,19 @@
   ![](https://img.shields.io/github/stars/SJTU-LIT/ceval.svg?style=social)
   [[paper](https://arxiv.org/abs/2305.08322)]
   ![](https://img.shields.io/badge/多学科-blue) 
-  - C-Eval是一个由上海交通大学发布的中文基础模型评测基准，包含了13948个多项选择题，涵盖了人文，社科，理工，其他专业四个大方向，52个不同的学科，从中学到大学研究生以及职业考试。
+  - C-Eval是一个由上海交通大学发布的中文基础模型评测基准，包含了13948个多项选择题，涵盖了人文，社科，理工，其他专业四个大方向，52个学科，从中学到大学研究生以及职业考试。
 
 - [AGIEval](https://github.com/microsoft/AGIEval)
   ![](https://img.shields.io/github/stars/microsoft/AGIEval.svg?style=social)
   [[paper](https://arxiv.org/abs/2304.06364)]
   ![](https://img.shields.io/badge/多学科-blue) 
-  - AGIEval是一个由微软发布的评测基准，用于评估基础模型在人类认知任务中的表现，包含了20个面向普通考生的官方、公开、高标准入学和资格考试，包括普通大学入学考试 (中国高考和美国SAT考试)、法学院入学考试、数学竞赛和律师资格考试、国家公务员考试等。
+  - AGIEval是一个由微软发布的评测基准，用于评估大模型在人类认知任务中的表现，包含了20个面向普通考生的官方、公开、高标准入学和资格考试，包括普通大学入学考试 (中国高考和美国SAT考试)、法学院入学考试、数学竞赛和律师资格考试、国家公务员考试等。
 
 - [Xiezhi (獬豸)](https://github.com/mikegu721/xiezhibenchmark)
   ![](https://img.shields.io/github/stars/mikegu721/xiezhibenchmark.svg?style=social)
   [[paper](https://arxiv.org/abs/2306.05783)]
   ![](https://img.shields.io/badge/多学科-blue) 
-  - Xiezhi是一个由复旦大学发布的综合的、多学科的、能够自动更新的领域知识评测基准，包含了哲学、经济学、法学、教育学、文学、历史学、自然科学、工学、农学、医学、军事学、管理学、艺术学这13个学科门类，24万道学科题目，516个具体学科，249587道题目。
+  - Xiezhi是一个由复旦大学发布的综合的、多学科的、能够自动更新的领域知识评测基准，包含了哲学、经济学、法学、教育学、文学、历史学、自然科学、工学、农学、医学、军事学、管理学、艺术学这13个学科门类，516个具体学科，249587道题目。
 
 - [CMMLU](https://github.com/haonan-li/CMMLU)
   ![](https://img.shields.io/github/stars/haonan-li/CMMLU.svg?style=social)
@@ -263,6 +263,24 @@
   ![](https://img.shields.io/badge/医疗-blue) 
   - PromptCBLUE是一个面向中文医疗场景的评测基准，通过对CBLUE基准进行二次开发，将16种不同的医疗场景NLP任务全部转化为基于提示的语言生成任务。
 
+- [FinEval](https://github.com/SUFE-AIFLM-Lab/FinEval)
+  ![](https://img.shields.io/github/stars/SUFE-AIFLM-Lab/FinEval.svg?style=social)
+  [[paper](https://arxiv.org/abs/2308.09975)]
+  ![](https://img.shields.io/badge/金融-blue) 
+  - FinEval是一个金融知识评测基准，包含了4,661个高质量的多项选择题，涵盖金融、经济、会计和证书等领域，34个不同的学术科目。
+
+- [FLARE](https://github.com/chancefocus/PIXIU)
+  ![](https://img.shields.io/github/stars/chancefocus/PIXIU.svg?style=social)
+  [[paper](https://arxiv.org/abs/2306.05443)]
+  ![](https://img.shields.io/badge/金融-blue) 
+  - FLARE是一个金融评测基准，包含了金融知识理解和预测等任务。
+
+- [CFLEB](https://github.com/ssymmetry/BBT-FinCUGE-Applications)
+  ![](https://img.shields.io/github/stars/ssymmetry/BBT-FinCUGE-Applications.svg?style=social)
+  [[paper](https://arxiv.org/abs/2302.09432)]
+  ![](https://img.shields.io/badge/金融-blue) 
+  - CFLEB是一个中文金融评测基准，包含两项语言生成任务和四项语言理解任务。
+    
 - [GeoGLUE](https://modelscope.cn/datasets/damo/GeoGLUE/summary)
   [[paper](https://arxiv.org/abs/2305.06545)]
   ![](https://img.shields.io/badge/地理-blue) 
