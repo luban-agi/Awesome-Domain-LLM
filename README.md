@@ -10,20 +10,46 @@
 
 欢迎大家贡献本项目未收录的开源模型、数据集、评测基准等，一起推动大模型赋能各行各业！
 
+<!-- 
+## 更新
+- [2023/9/9]
+-->
+
 ## 目录
 
 - [🤖 模型](#-模型)
-  - [🏥 医疗](#-医疗)
-  - [⚖ 法律](#-法律)
-  - [💰 金融](#-金融)
-  - [🎓 教育](#-教育)
-  - [🗂 其他](#-其他)
+  - [通用模型](#通用模型)
+  - [领域模型](#领域模型)
+    - [🏥 医疗](#-医疗)
+    - [⚖ 法律](#-法律)
+    - [💰 金融](#-金融)
+    - [🎓 教育](#-教育)
+    - [🗂 其他](#-其他)
 - [📚 数据集](#-数据集)
 - [📏 评测基准](#-评测基准)
 
 ## 🤖 模型
 
-### 🏥 医疗
+### 通用模型
+
+
+<!-- 
+| ChatGLM   | 6B              |     |
+| ChatGLM2  | 6B              |     |
+| LLaMA     | 7B/13B/33B/65B  |     |
+| LLaMA2    | 7B/13B/33B/65B  |     |
+-->
+
+| 模型                                                          | 大小                    | 机构                                         |
+|:------------------------------------------------------------:|:-----------------------:|:-------------------------------------------:|
+| [Baichuan-7B](https://github.com/baichuan-inc/baichuan-7B)   | 7B                      | [百川智能](https://www.baichuan-ai.com/home) |
+| [Baichuan-13B](https://github.com/baichuan-inc/baichuan-13B) | 13B/13B-Chat            | [百川智能](https://www.baichuan-ai.com/home) |
+| [Baichuan2](https://github.com/baichuan-inc/Baichuan2)       | 7B/7B-Chat/13B/13B-Chat | [百川智能](https://www.baichuan-ai.com/home) |
+| [Qwen-7B](https://github.com/QwenLM/Qwen-7B)                 | 7B/7B-Chat              | [阿里云](https://qianwen.aliyun.com/)        |
+
+### 领域模型
+
+#### 🏥 医疗
 
 - [DoctorGLM](https://github.com/xionghonglin/DoctorGLM)
   ![](https://img.shields.io/github/stars/xionghonglin/DoctorGLM.svg?style=social)
@@ -131,7 +157,7 @@
   ![](https://img.shields.io/github/stars/HIT-SCIR-SC/QiaoBan.svg?style=social)
   - 该项目开源了儿童情感对话大模型QiaoBan，基于开源通用大模型，使用通用域人机对话、单轮指令数据以及儿童情感陪伴对话数据进行指令微调，研发出适用于儿童情感陪伴的大模型。
 
-### ⚖ 法律
+#### ⚖ 法律
 
 - [LawGPT_zh (獬豸)](https://github.com/LiuHC0428/LAW-GPT)
   ![](https://img.shields.io/github/stars/LiuHC0428/LAW-GPT.svg?style=social)
@@ -171,7 +197,7 @@
   ![](https://img.shields.io/github/stars/seudl/JurisLMs.svg?style=social)
   - 该项目基于中文法学语料训练了一系列语言模型，包括: 1) 可解释法律判决预测模型AI Judge，由GPT2在法学语料上进一步预训练之后，结合一个法条适用模型（一个基于BERT的分类器）微调得到，不仅能够给出判决结果，还能给出相应的法院观点; 2) 智能法律咨询模型AI Lawyer，采用主动学习在少量数据上进行微调得到，可以根据用户咨询适用正确的法律法规回答问题。
 
-### 💰 金融
+#### 💰 金融
 
 - [BBT-FinCUGE-Applications](https://github.com/ssymmetry/BBT-FinCUGE-Applications)
   ![](https://img.shields.io/github/stars/ssymmetry/BBT-FinCUGE-Applications.svg?style=social)
@@ -202,7 +228,7 @@
   [[paper](https://arxiv.org/abs/2211.00083)]
   - 该项目开源了金融大模型FLANG和评测基准FLUE。
 
-### 🎓 教育
+#### 🎓 教育
 
 - [桃李 (Taoli)](https://github.com/blcuicall/taoli)
   ![](https://img.shields.io/github/stars/blcuicall/taoli.svg?style=social)
@@ -213,7 +239,7 @@
   [[paper](https://arxiv.org/abs/2308.02773)]
   - 该项目开源了针对教育垂直领域的对话大模型，主要研究以预训练大模型为基底的教育对话大模型相关技术，融合多样化的教育垂直领域数据，辅以指令微调、价值观对齐等方法，提供教育场景下自动出题、作业批改、情感支持、课程辅导、高考咨询等丰富功能，服务于广大老师、学生和家长群体，助力实现因材施教、公平公正、富有温度的智能教育。
 
-### 🗂 其他
+#### 🗂 其他
 
 - [MediaGPT](https://github.com/IMOSR/MediaGPT)
   ![](https://img.shields.io/github/stars/IMOSR/MediaGPT.svg?style=social)
