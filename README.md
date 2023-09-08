@@ -39,13 +39,13 @@
 -->
 领域模型通常在通用模型的基础上进行持续预训练或指令微调得到，此处整理常用的开源通用模型。
 
-| 模型                                                          | 大小                                           | 机构                                         |
-|:------------------------------------------------------------:|:----------------------------------------------:|:-------------------------------------------:|
-| [LLaMA2](https://github.com/facebookresearch/llama)          | 7B/7B-Chat <br> 13B/13B-Chat <br> 70B/70B-Chat | [Meta](https://ai.meta.com/)                |
+| 模型                                                          | 大小                                           | 机构                                         | 论文   |
+|:------------------------------------------------------------:|:----------------------------------------------:|:-------------------------------------------:|:-----:|
+| [LLaMA2](https://github.com/facebookresearch/llama)          | 7B/7B-Chat <br> 13B/13B-Chat <br> 70B/70B-Chat | [Meta](https://ai.meta.com/)                | [paper](https://arxiv.org/abs/2307.09288)                             |
+| [Qwen-7B](https://github.com/QwenLM/Qwen-7B)                 | 7B/7B-Chat                                     | [阿里云](https://qianwen.aliyun.com/)        | [paper](https://github.com/QwenLM/Qwen-7B/blob/main/tech_memo.md)     |
 | [Baichuan-7B](https://github.com/baichuan-inc/baichuan-7B)   | 7B                                             | [百川智能](https://www.baichuan-ai.com/home) |
 | [Baichuan-13B](https://github.com/baichuan-inc/baichuan-13B) | 13B/13B-Chat                                   | [百川智能](https://www.baichuan-ai.com/home) |
 | [Baichuan2](https://github.com/baichuan-inc/Baichuan2)       | 7B/7B-Chat <br> 13B/13B-Chat                   | [百川智能](https://www.baichuan-ai.com/home) |
-| [Qwen-7B](https://github.com/QwenLM/Qwen-7B)                 | 7B/7B-Chat                                     | [阿里云](https://qianwen.aliyun.com/)        |
 
 ### 领域模型
 
