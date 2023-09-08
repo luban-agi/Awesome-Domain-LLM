@@ -4,18 +4,18 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) 
 ![](https://img.shields.io/github/last-commit/luban-agi/Awesome-Domain-LLM?color=green)
 
-自ChatGPT为代表的大语言模型（Large Language Model, LLM）出现以后，掀起了新一轮研究和应用浪潮，出现了许多包括LLaMA、ChatGLM、Baichuan、Qwen等在内的开源通用模型。
-随后，来自不同领域的人们基于开源通用模型通过持续预训练/指令微调将其应用于垂直领域。
+自ChatGPT为代表的大语言模型（Large Language Model, LLM）出现以后，掀起了新一轮研究和应用浪潮，出现了许多包括LLaMA、ChatGLM、Baichuan、Qwen等在内的通用模型。
+随后，来自不同领域的人们基于通用模型通过持续预训练/指令微调将其应用于垂直领域。
 本项目旨在收集和梳理垂直领域的开源模型、数据集及评测基准。
 
 欢迎大家贡献本项目未收录的开源模型、数据集、评测基准等，一起推动大模型赋能各行各业！
 
+## 🔔 更新
 <!-- 
-## 更新
 - [2023/9/9]
 -->
 
-## 目录
+## 📜 目录
 
 - [🤖 模型](#-模型)
   - [通用模型](#通用模型)
@@ -36,17 +36,16 @@
 <!-- 
 | ChatGLM   | 6B              |     |
 | ChatGLM2  | 6B              |     |
-| LLaMA     | 7B/13B/33B/65B  |     |
-| LLaMA2    | 7B/13B/33B/65B  |     |
 -->
-领域模型通常在通用模型的基础上进行预训练或指令微调得到，此处整理常用的开源通用模型。
+领域模型通常在通用模型的基础上进行持续预训练或指令微调得到，此处整理常用的开源通用模型。
 
-| 模型                                                          | 大小                    | 机构                                         |
-|:------------------------------------------------------------:|:-----------------------:|:-------------------------------------------:|
-| [Baichuan-7B](https://github.com/baichuan-inc/baichuan-7B)   | 7B                      | [百川智能](https://www.baichuan-ai.com/home) |
-| [Baichuan-13B](https://github.com/baichuan-inc/baichuan-13B) | 13B/13B-Chat            | [百川智能](https://www.baichuan-ai.com/home) |
-| [Baichuan2](https://github.com/baichuan-inc/Baichuan2)       | 7B/7B-Chat/13B/13B-Chat | [百川智能](https://www.baichuan-ai.com/home) |
-| [Qwen-7B](https://github.com/QwenLM/Qwen-7B)                 | 7B/7B-Chat              | [阿里云](https://qianwen.aliyun.com/)        |
+| 模型                                                          | 大小                                           | 机构                                         |
+|:------------------------------------------------------------:|:----------------------------------------------:|:-------------------------------------------:|
+| [LLaMA2](https://github.com/facebookresearch/llama)          | 7B/7B-Chat <br> 13B/13B-Chat <br> 70B/70B-Chat | [Meta](https://ai.meta.com/)                |
+| [Baichuan-7B](https://github.com/baichuan-inc/baichuan-7B)   | 7B                                             | [百川智能](https://www.baichuan-ai.com/home) |
+| [Baichuan-13B](https://github.com/baichuan-inc/baichuan-13B) | 13B/13B-Chat                                   | [百川智能](https://www.baichuan-ai.com/home) |
+| [Baichuan2](https://github.com/baichuan-inc/Baichuan2)       | 7B/7B-Chat <br> 13B/13B-Chat                   | [百川智能](https://www.baichuan-ai.com/home) |
+| [Qwen-7B](https://github.com/QwenLM/Qwen-7B)                 | 7B/7B-Chat                                     | [阿里云](https://qianwen.aliyun.com/)        |
 
 ### 领域模型
 
