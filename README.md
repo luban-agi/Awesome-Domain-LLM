@@ -392,3 +392,5 @@
 ### 🤝 友情链接
 - [Awesome AIGC Tutorials](https://github.com/luban-agi/Awesome-AIGC-Tutorials)
   - 这里收集了关于AIGC的各种精选教程和资源，既适合初学者也适合进阶AI爱好者。 
+- [Awesome Tool Learning](https://github.com/luban-agi/Awesome-Tool-Learning)
+  - Awesome Tool Learning 提供丰富的关于工具学习的资源，包括论文、框架和应用程序。
