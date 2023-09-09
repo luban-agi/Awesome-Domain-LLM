@@ -18,19 +18,22 @@
 ## 📜 目录
 
 - [🤖 模型](#-模型)
-  - [通用模型](#通用模型)
-  - [领域模型](#领域模型)
+  - [🌐 通用模型](#-通用模型)
+  - [🧩 领域模型](#-领域模型)
     - [🏥 医疗](#-医疗)
     - [⚖ 法律](#-法律)
     - [💰 金融](#-金融)
     - [🎓 教育](#-教育)
-    - [🗂 其他](#-其他)
+    - [➕ 其他](#-其他)
 - [📚 数据集](#-数据集)
 - [📏 评测基准](#-评测基准)
+- [📎 附录](#-附录)
+  - [✨ 点赞历史](#-点赞历史)
+  - [🤝 友情链接](#-友情链接)
 
 ## 🤖 模型
 
-### 通用模型
+### 🌐 通用模型
 
 领域模型通常在通用模型的基础上进行持续预训练或指令微调得到，此处整理常用的开源通用模型。
 
@@ -43,7 +46,7 @@
 | [Baichuan-13B](https://github.com/baichuan-inc/baichuan-13B) | 13B/13B-Chat                                   | [百川智能](https://www.baichuan-ai.com/home) |
 | [Baichuan2](https://github.com/baichuan-inc/Baichuan2)       | 7B/7B-Chat <br> 13B/13B-Chat                   | [百川智能](https://www.baichuan-ai.com/home) |
 
-### 领域模型
+### 🧩 领域模型
 
 #### 🏥 医疗
 
@@ -235,7 +238,7 @@
   [[paper](https://arxiv.org/abs/2308.02773)]
   - 该项目开源了针对教育垂直领域的对话大模型，主要研究以预训练大模型为基底的教育对话大模型相关技术，融合多样化的教育垂直领域数据，辅以指令微调、价值观对齐等方法，提供教育场景下自动出题、作业批改、情感支持、课程辅导、高考咨询等丰富功能，服务于广大老师、学生和家长群体，助力实现因材施教、公平公正、富有温度的智能教育。
 
-#### 🗂 其他
+#### ➕ 其他
 
 - [MediaGPT](https://github.com/IMOSR/MediaGPT)
   ![](https://img.shields.io/github/stars/IMOSR/MediaGPT.svg?style=social)
@@ -379,6 +382,13 @@
   [[paper](https://arxiv.org/abs/2305.06545)]
   ![](https://img.shields.io/badge/地理-blue) 
   - GeoGLUE是一个由阿里巴巴达摩院与高德联合发布的地理语义理解能力评测基准，旨在推动地理相关文本处理技术和社区的发展。本榜单提炼了其中多个典型场景：地图搜索、电商物流、政府登记、金融交通，并设计了六个核心任务：门址地址要素解析、地理实体对齐、Query-POI库召回、Query-POI相关性排序、地址Query成分分析、WhereWhat切分。
-    
+
+## 📎 附录
+
+### ✨ 点赞历史
+
 [![Star History Chart](https://api.star-history.com/svg?repos=luban-agi/Awesome-Domain-LLM&type=Date)](https://star-history.com/#luban-agi/Awesome-Domain-LLM&Date)
 
+### 🤝 友情链接
+- [Awesome AIGC Tutorials](https://github.com/luban-agi/Awesome-AIGC-Tutorials)
+  - 这里收集了关于AIGC的各种精选教程和资源，既适合初学者也适合进阶AI爱好者。 
