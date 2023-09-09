@@ -3,6 +3,7 @@
 [![Awesome](https://camo.githubusercontent.com/64f8905651212a80869afbecbf0a9c52a5d1e70beab750dea40a994fa9a9f3c6/68747470733a2f2f617765736f6d652e72652f62616467652e737667)](https://github.com/luban-agi/awesome-Domain-LLM) 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) 
 ![](https://img.shields.io/github/last-commit/luban-agi/Awesome-Domain-LLM?color=green)
+[![GitHub Repo stars](https://img.shields.io/github/stars/luban-agi/Awesome-Domain-LLM?style=social)](https://github.com/luban-agi/Awesome-Domain-LLM)
 
 自ChatGPT为代表的大语言模型（Large Language Model, LLM）出现以后，掀起了新一轮研究和应用浪潮，出现了许多包括LLaMA、ChatGLM、Baichuan、Qwen等在内的通用模型。
 随后，来自不同领域的人们基于通用模型通过持续预训练/指令微调将其应用于垂直领域。
