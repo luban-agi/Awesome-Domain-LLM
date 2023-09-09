@@ -394,3 +394,5 @@
   - 这里收集了关于AIGC的各种精选教程和资源，既适合初学者也适合进阶AI爱好者。 
 - [Awesome Tool Learning](https://github.com/luban-agi/Awesome-Tool-Learning)
   - Awesome Tool Learning 提供丰富的关于工具学习的资源，包括论文、框架和应用程序。
+- [WayToAGI](http://waytoagi.com/)
+  - WaytoAGI.com 是最全面的中文AIGC资源知识库，包括最新AI动态、提示词、学习指南等，长期保持活跃更新。
