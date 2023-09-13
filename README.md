@@ -16,9 +16,7 @@
 欢迎大家贡献本项目未收录的开源模型、数据集、评测基准等内容，一起推动大模型赋能各行各业！
 
 ## 🔔 更新
-<!-- 
-- [2023/9/9]
--->
+- [2023/9/13] 增加[夫子•明察](https://github.com/irlab-sdu/fuzi.mingcha)，夫子•明察是由山东大学、浪潮云、中国政法大学联合研发的司法大模型。
 
 ## 📜 目录
 
@@ -200,6 +198,10 @@
 - [JurisLMs](https://github.com/seudl/JurisLMs)
   ![](https://img.shields.io/github/stars/seudl/JurisLMs.svg?style=social)
   - 该项目基于中文法学语料训练了一系列语言模型，包括: 1) 可解释法律判决预测模型AI Judge，由GPT2在法学语料上进一步预训练之后，结合一个法条适用模型（一个基于BERT的分类器）微调得到，不仅能够给出判决结果，还能给出相应的法院观点; 2) 智能法律咨询模型AI Lawyer，采用主动学习在少量数据上进行微调得到，可以根据用户咨询适用正确的法律法规回答问题。
+
+- [夫子•明察](https://github.com/irlab-sdu/fuzi.mingcha)
+  ![](https://img.shields.io/github/stars/irlab-sdu/fuzi.mingcha.svg?style=social)
+  - 夫子•明察司法大模型是由山东大学、浪潮云、中国政法大学联合研发，以 ChatGLM 为大模型底座，基于海量中文无监督司法语料（包括各类判决文书、法律法规等）与有监督司法微调数据（包括法律问答、类案检索）训练的中文司法大模型。该模型支持法条检索、案例分析、三段论推理判决以及司法对话等功能，旨在为用户提供全方位、高精准的法律咨询与解答服务。
 
 #### 💰 金融
 
