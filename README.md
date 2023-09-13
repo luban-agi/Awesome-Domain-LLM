@@ -5,11 +5,15 @@
 ![](https://img.shields.io/github/last-commit/luban-agi/Awesome-Domain-LLM?color=green)
 [![GitHub Repo stars](https://img.shields.io/github/stars/luban-agi/Awesome-Domain-LLM?style=social)](https://github.com/luban-agi/Awesome-Domain-LLM)
 
-自ChatGPT为代表的大语言模型（Large Language Model, LLM）出现以后，掀起了新一轮研究和应用浪潮，出现了许多包括LLaMA、ChatGLM、Baichuan、Qwen等在内的通用模型。
-随后，来自不同领域的人们基于通用模型通过持续预训练/指令微调将其应用于垂直领域。
-本项目旨在收集和梳理垂直领域的开源模型、数据集及评测基准。
+自以ChatGPT为代表的大语言模型出现以后，掀起了新一轮研究和应用浪潮，出现了许多包括LLaMA、ChatGLM、Baichuan、Qwen等在内的通用模型。
+随后，来自不同领域的从业人员在通用模型的基础上通过持续预训练/指令微调将其应用于垂直领域。
 
-欢迎大家贡献本项目未收录的开源模型、数据集、评测基准等，一起推动大模型赋能各行各业！
+<p align="center">
+    <img src="assets/pipeline.jpg" width="500"/>
+<p>
+
+本项目旨在收集和梳理垂直领域的**开源模型**、**数据集**及**评测基准**。
+欢迎大家贡献本项目未收录的开源模型、数据集、评测基准等内容，一起推动大模型赋能各行各业！
 
 ## 🔔 更新
 <!-- 
