@@ -16,6 +16,7 @@
 欢迎大家贡献本项目未收录的开源模型、数据集、评测基准等内容，一起推动大模型赋能各行各业！
 
 ## 🔔 更新
+- [2023/9/14] 增加[WeaverBird (织工鸟)](https://github.com/ant-research/fin_domain_llm)，一个可接入本地知识与网络搜索能力的金融领域对话大模型。
 - [2023/9/13] 增加[夫子•明察](https://github.com/irlab-sdu/fuzi.mingcha)，夫子•明察是由山东大学、浪潮云、中国政法大学联合研发的司法大模型。
 
 ## 📜 目录
@@ -205,6 +206,11 @@
 
 #### 💰 金融
 
+- [WeaverBird (织工鸟)](https://github.com/ant-research/fin_domain_llm)
+  ![](https://img.shields.io/github/stars/ant-research/fin_domain_llm.svg?style=social)
+  [[paper](https://arxiv.org/abs/2308.05361)]
+  - 该项目开源了基于中英双语金融领域语料库微调的，同时可接入本地知识库以及网络搜索引擎的金融领域对话大模型。
+  
 - [BBT-FinCUGE-Applications](https://github.com/ssymmetry/BBT-FinCUGE-Applications)
   ![](https://img.shields.io/github/stars/ssymmetry/BBT-FinCUGE-Applications.svg?style=social)
   [[paper](https://arxiv.org/abs/2302.09432)]
