@@ -409,11 +409,13 @@
 [![Star History Chart](https://api.star-history.com/svg?repos=luban-agi/Awesome-Domain-LLM&type=Date)](https://star-history.com/#luban-agi/Awesome-Domain-LLM&Date)
 
 ### 🤝 友情链接
+- [Awesome Code LLM](https://github.com/glaxycoder/Awesome-Code-LLM)
+  - 该项目收集了代码大模型相关的论文、数据集和评测基准。
 - [Awesome AIGC Tutorials](https://github.com/luban-agi/Awesome-AIGC-Tutorials)
-  - 这里收集了关于AIGC的各种精选教程和资源，既适合初学者也适合进阶AI爱好者。 
+  - 该项目收集了关于AIGC的各种精选教程和资源，既适合初学者也适合进阶AI爱好者。 
 - [Awesome Tool Learning](https://github.com/luban-agi/Awesome-Tool-Learning)
-  - Awesome Tool Learning 提供丰富的关于工具学习的资源，包括论文、框架和应用程序。
+  - 该项目收集了关于工具学习的资源，包括论文、框架和应用。
 - [Awesome LLM reasoning](https://github.com/luban-agi/Awesome-LLM-reasoning)
-  - Awesome LLM reasoning 提供丰富的关于大语言模型推理方面的资源，包括论文、数据集等。
+  - 该项目收集了关于大语言模型推理方面的资源，包括论文、数据集等。
 - [WayToAGI](http://waytoagi.com/)
   - WaytoAGI.com 是最全面的中文AIGC资源知识库，包括最新AI动态、提示词、学习指南等，长期保持活跃更新。
