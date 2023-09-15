@@ -16,8 +16,9 @@
 欢迎大家贡献本项目未收录的开源模型、数据集、评测基准等内容，一起推动大模型赋能各行各业！
 
 ## 🔔 更新
+- [2023/9/15] 增加[Zhongjing-LLaMA (仲景)](https://github.com/SupritYoung/Zhongjing)，一个包含预训练、有监督微调和RLHF完整训练流程的中文医学大模型。
 - [2023/9/14] 增加[WeaverBird (织工鸟)](https://github.com/ant-research/fin_domain_llm)，一个可接入本地知识与网络搜索能力的金融领域对话大模型。
-- [2023/9/13] 增加[夫子•明察](https://github.com/irlab-sdu/fuzi.mingcha)，夫子•明察是由山东大学、浪潮云、中国政法大学联合研发的司法大模型。
+- [2023/9/13] 增加[夫子•明察](https://github.com/irlab-sdu/fuzi.mingcha)，一个由山东大学、浪潮云、中国政法大学联合研发的司法大模型。
 
 ## 📜 目录
 
@@ -53,6 +54,11 @@
 ### 🧩 领域模型
 
 #### 🏥 医疗
+
+- [Zhongjing-LLaMA (仲景)](https://github.com/SupritYoung/Zhongjing)
+  ![](https://img.shields.io/github/stars/SupritYoung/Zhongjing.svg?style=social)
+  [[paper](https://arxiv.org/abs/2308.03549)]
+  - 该项目开源了首个包含预训练、有监督微调和 RLHF 完整训练流程的中文医学大模型，展现出了很好的泛化能力，在某些对话场景中甚至接近专业医生的专业水平。此外，还开源了一个包含 70,000 条完全来源于真实医患对话的多轮对话数据集。该数据集包含大量医生主动提问的语句，有助于提升模型的主动医疗询问能力。
 
 - [DoctorGLM](https://github.com/xionghonglin/DoctorGLM)
   ![](https://img.shields.io/github/stars/xionghonglin/DoctorGLM.svg?style=social)
