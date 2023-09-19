@@ -355,6 +355,12 @@
   ![](https://img.shields.io/badge/多学科-blue) 
   - CG-Eval是一个由甲骨易AI研究院与LanguageX AI Lab联合发布的针对中文大模型生成能力的评测基准。包含了科技与工程、人文与社会科学、数学计算、医师资格考试、司法考试、注册会计师考试等六个大科目类别下的55个子科目的11000道不同类型问题。CG-Eval包含一套复合的打分系统：对于非计算题，每一道名词解释题和简答题都有标准参考答案，采用多个标准打分然后加权求和；对于计算题目，会提取最终计算结果和解题过程，然后综合打分。
 
+- [CBLUE](https://github.com/CBLUEbenchmark/CBLUE)
+  ![](https://img.shields.io/github/stars/CBLUEbenchmark/CBLUE.svg?style=social)
+  [[paper](https://arxiv.org/abs/2106.08087)]
+  ![](https://img.shields.io/badge/医疗-blue) 
+  - CBLUE是一个中文医学语言理解评测基准，包含8个中文医疗语言理解任务。
+    
 - [PromptCBLUE](https://github.com/michael-wzhu/PromptCBLUE)
   ![](https://img.shields.io/github/stars/michael-wzhu/PromptCBLUE.svg?style=social)
   [[paper](https://arxiv.org/abs/2308.04823)]
