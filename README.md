@@ -49,7 +49,7 @@
 | [Qwen-7B](https://github.com/QwenLM/Qwen-7B)                 | 7B/7B-Chat                                     | [阿里云](https://qianwen.aliyun.com/)        | [paper](https://github.com/QwenLM/Qwen-7B/blob/main/tech_memo.md)     |
 | [Baichuan-7B](https://github.com/baichuan-inc/baichuan-7B)   | 7B                                             | [百川智能](https://www.baichuan-ai.com/home) |
 | [Baichuan-13B](https://github.com/baichuan-inc/baichuan-13B) | 13B/13B-Chat                                   | [百川智能](https://www.baichuan-ai.com/home) |
-| [Baichuan2](https://github.com/baichuan-inc/Baichuan2)       | 7B/7B-Chat <br> 13B/13B-Chat                   | [百川智能](https://www.baichuan-ai.com/home) |
+| [Baichuan2](https://github.com/baichuan-inc/Baichuan2)       | 7B/7B-Chat <br> 13B/13B-Chat                   | [百川智能](https://www.baichuan-ai.com/home) | [paper](https://arxiv.org/abs/2309.10305)
 
 ### 🧩 领域模型
 
