@@ -16,6 +16,7 @@
 欢迎大家贡献本项目未收录的开源模型、数据集、评测基准等内容，一起推动大模型赋能各行各业！
 
 ## 🔔 更新
+- [2023/9/22] 增加[InternLM(书生•浦语)](https://github.com/InternLM/InternLM)，上海AI实验室与商汤科技联合香港中文大学和复旦大学开源的多语基座模型。
 - [2023/9/15] 增加[Zhongjing-LLaMA (仲景)](https://github.com/SupritYoung/Zhongjing)，一个包含预训练、有监督微调和RLHF完整训练流程的中文医学大模型。
 - [2023/9/14] 增加[WeaverBird (织工鸟)](https://github.com/ant-research/fin_domain_llm)，一个可接入本地知识与网络搜索能力的金融领域对话大模型。
 - [2023/9/13] 增加[夫子•明察](https://github.com/irlab-sdu/fuzi.mingcha)，一个由山东大学、浪潮云、中国政法大学联合研发的司法大模型。
@@ -47,9 +48,8 @@
 | [LLaMA2](https://github.com/facebookresearch/llama)          | 7B/7B-Chat <br> 13B/13B-Chat <br> 70B/70B-Chat | [Meta](https://ai.meta.com/)                | [paper](https://arxiv.org/abs/2307.09288)                             |
 | [ChatGLM2-6B](https://github.com/THUDM/ChatGLM2-6B)          | 6B                                             | [清华大学](https://github.com/THUDM)         |
 | [Qwen-7B](https://github.com/QwenLM/Qwen-7B)                 | 7B/7B-Chat                                     | [阿里云](https://qianwen.aliyun.com/)        | [paper](https://github.com/QwenLM/Qwen-7B/blob/main/tech_memo.md)     |
-| [Baichuan-7B](https://github.com/baichuan-inc/baichuan-7B)   | 7B                                             | [百川智能](https://www.baichuan-ai.com/home) |
-| [Baichuan-13B](https://github.com/baichuan-inc/baichuan-13B) | 13B/13B-Chat                                   | [百川智能](https://www.baichuan-ai.com/home) |
 | [Baichuan2](https://github.com/baichuan-inc/Baichuan2)       | 7B/7B-Chat <br> 13B/13B-Chat                   | [百川智能](https://www.baichuan-ai.com/home) | [paper](https://arxiv.org/abs/2309.10305)
+| [InternLM](https://github.com/InternLM/InternLM)             | 7B/7B-Chat <br> 20B/20B-Chat                   | [上海AI实验室](https://internlm.intern-ai.org.cn) | [paper](https://github.com/InternLM/InternLM-techreport/blob/main/InternLM.pdf)
 
 ### 🧩 领域模型
 
