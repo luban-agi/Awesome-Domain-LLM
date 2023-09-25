@@ -16,10 +16,11 @@
 欢迎大家贡献本项目未收录的开源模型、数据集、评测基准等内容，一起推动大模型赋能各行各业！
 
 ## 🔔 更新
+- [2023/9/25] 更新[Qwen](https://github.com/QwenLM/Qwen)，新增Qwen-14B和Qwen-14B-Chat模型，并更新Qwen-7B和Qwen-7B-Chat模型。相比原版Qwen-7B，新版使用更多训练数据 (2.4T token)，序列长度从2048扩展至8192。整体中文能力以及代码能力提升较多。
 - [2023/9/22] 增加[InternLM(书生•浦语)](https://github.com/InternLM/InternLM)，上海AI实验室与商汤科技联合香港中文大学和复旦大学开源的多语基座模型。
-- [2023/9/15] 增加[Zhongjing-LLaMA (仲景)](https://github.com/SupritYoung/Zhongjing)，一个包含预训练、有监督微调和RLHF完整训练流程的中文医学大模型。
-- [2023/9/14] 增加[WeaverBird (织工鸟)](https://github.com/ant-research/fin_domain_llm)，一个可接入本地知识与网络搜索能力的金融领域对话大模型。
-- [2023/9/13] 增加[夫子•明察](https://github.com/irlab-sdu/fuzi.mingcha)，一个由山东大学、浪潮云、中国政法大学联合研发的司法大模型。
+- [2023/9/15] 增加[Zhongjing-LLaMA (仲景)](https://github.com/SupritYoung/Zhongjing)，包含预训练、有监督微调和RLHF完整训练流程的中文医学大模型。
+- [2023/9/14] 增加[WeaverBird (织工鸟)](https://github.com/ant-research/fin_domain_llm)，可接入本地知识与网络搜索能力的金融领域对话大模型。
+- [2023/9/13] 增加[夫子•明察](https://github.com/irlab-sdu/fuzi.mingcha)，由山东大学、浪潮云、中国政法大学联合研发的司法大模型。
 
 ## 📜 目录
 
@@ -47,7 +48,7 @@
 |:------------------------------------------------------------:|:----------------------------------------------:|:-------------------------------------------:|:-----:|
 | [LLaMA2](https://github.com/facebookresearch/llama)          | 7B/7B-Chat <br> 13B/13B-Chat <br> 70B/70B-Chat | [Meta](https://ai.meta.com/)                | [paper](https://arxiv.org/abs/2307.09288)                             |
 | [ChatGLM2-6B](https://github.com/THUDM/ChatGLM2-6B)          | 6B                                             | [清华大学](https://github.com/THUDM)         |
-| [Qwen-7B](https://github.com/QwenLM/Qwen-7B)                 | 7B/7B-Chat                                     | [阿里云](https://qianwen.aliyun.com/)        | [paper](https://github.com/QwenLM/Qwen-7B/blob/main/tech_memo.md)     |
+| [Qwen](https://github.com/QwenLM/Qwen)                       | 7B/7B-Chat <br> 14B/14B-Chat                   | [阿里云](https://qianwen.aliyun.com/)        | [paper](https://github.com/QwenLM/Qwen/blob/main/QWEN_TECHNICAL_REPORT.pdf)|
 | [Baichuan2](https://github.com/baichuan-inc/Baichuan2)       | 7B/7B-Chat <br> 13B/13B-Chat                   | [百川智能](https://www.baichuan-ai.com/home) | [paper](https://arxiv.org/abs/2309.10305)
 | [InternLM](https://github.com/InternLM/InternLM)             | 7B/7B-Chat <br> 20B/20B-Chat                   | [上海AI实验室](https://internlm.intern-ai.org.cn) | [paper](https://github.com/InternLM/InternLM-techreport/blob/main/InternLM.pdf)
 
@@ -415,8 +416,6 @@
 [![Star History Chart](https://api.star-history.com/svg?repos=luban-agi/Awesome-Domain-LLM&type=Date)](https://star-history.com/#luban-agi/Awesome-Domain-LLM&Date)
 
 ### 🤝 友情链接
-- [Awesome Code LLM](https://github.com/glaxycoder/Awesome-Code-LLM)
-  - 该项目收集了代码大模型相关的论文、数据集和评测基准。
 - [Awesome AIGC Tutorials](https://github.com/luban-agi/Awesome-AIGC-Tutorials)
   - 该项目收集了关于AIGC的各种精选教程和资源，既适合初学者也适合进阶AI爱好者。 
 - [Awesome Tool Learning](https://github.com/luban-agi/Awesome-Tool-Learning)
