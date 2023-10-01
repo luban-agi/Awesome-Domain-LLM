@@ -16,6 +16,7 @@
 欢迎大家贡献本项目未收录的开源模型、数据集、评测基准等内容，一起推动大模型赋能各行各业！
 
 ## 🔔 更新
+- [2023/10/01] 增加[DISC-LawLLM](https://github.com/FudanDISC/DISC-LawLLM)， 由复旦大学开源的旨在为用户提供专业、智能、全面的法律服务的法律领域大模型。
 - [2023/9/25] 更新[Qwen](https://github.com/QwenLM/Qwen)，新增Qwen-14B和Qwen-14B-Chat模型，并更新Qwen-7B和Qwen-7B-Chat模型。相比原版Qwen-7B，新版使用更多训练数据 (2.4T token)，序列长度从2048扩展至8192。整体中文能力以及代码能力提升较多。
 - [2023/9/22] 增加[InternLM(书生•浦语)](https://github.com/InternLM/InternLM)，上海AI实验室与商汤科技联合香港中文大学和复旦大学开源的多语基座模型。
 - [2023/9/15] 增加[Zhongjing-LLaMA (仲景)](https://github.com/SupritYoung/Zhongjing)，包含预训练、有监督微调和RLHF完整训练流程的中文医学大模型。
@@ -168,6 +169,11 @@
   - 该项目开源了儿童情感对话大模型QiaoBan，基于开源通用大模型，使用通用域人机对话、单轮指令数据以及儿童情感陪伴对话数据进行指令微调，研发出适用于儿童情感陪伴的大模型。
 
 #### ⚖ 法律
+
+- [DISC-LawLLM](https://github.com/FudanDISC/DISC-LawLLM)
+  ![](https://img.shields.io/github/stars/FudanDISC/DISC-LawLLM.svg?style=social)
+  [[paper](https://arxiv.org/abs/2309.11325)]
+  - DISC-LawLLM 是一个旨在为用户提供专业、智能、全面的法律服务的法律领域大模型，由复旦大学数据智能与社会计算实验室 (Fudan-DISC) 开发并开源，包括 DISC-LawLLM-13B 模型 和 DISC-Law-SFT 数据集。
 
 - [LawGPT_zh (獬豸)](https://github.com/LiuHC0428/LAW-GPT)
   ![](https://img.shields.io/github/stars/LiuHC0428/LAW-GPT.svg?style=social)
