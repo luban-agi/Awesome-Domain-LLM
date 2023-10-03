@@ -16,6 +16,7 @@
 欢迎大家贡献本项目未收录的开源模型、数据集、评测基准等内容，一起推动大模型赋能各行各业！
 
 ## 🔔 更新
+- [2023/10/03] 增加两个法律评测基准，分别为面向中国法律体系的 [LawBench](https://github.com/open-compass/LawBench) 和美国法律体系 [LegalBench](https://github.com/HazyResearch/legalbench)。
 - [2023/10/01] 增加[DISC-LawLLM](https://github.com/FudanDISC/DISC-LawLLM)，由复旦大学开源的旨在为用户提供专业、智能、全面的法律服务的法律领域大模型。增加[FinGLM](https://github.com/MetaGLM/FinGLM)，致力于构建一个开放的、公益的、持久的金融大模型项目，利用开源开放来促进「AI+金融」。
 - [2023/9/25] 更新[Qwen](https://github.com/QwenLM/Qwen)，新增Qwen-14B和Qwen-14B-Chat模型，并更新Qwen-7B和Qwen-7B-Chat模型。相比原版Qwen-7B，新版使用更多训练数据 (2.4T token)，序列长度从2048扩展至8192。整体中文能力以及代码能力提升较多。
 - [2023/9/22] 增加[InternLM(书生•浦语)](https://github.com/InternLM/InternLM)，上海AI实验室与商汤科技联合香港中文大学和复旦大学开源的多语基座模型。
@@ -378,6 +379,18 @@
   ![](https://img.shields.io/badge/医疗-blue) 
   - PromptCBLUE是一个面向中文医疗场景的评测基准，通过对CBLUE基准进行二次开发，将16种不同的医疗场景NLP任务全部转化为基于提示的语言生成任务。
 
+- [LawBench](https://github.com/open-compass/LawBench)
+  ![](https://img.shields.io/github/stars/open-compass/LawBench.svg?style=social)
+  [[paper](https://arxiv.org/abs/2309.16289)]
+  ![](https://img.shields.io/badge/法律-blue) 
+  - LawBench 是一个面向中国法律体系的法律评测基准。LawBench 模拟了司法认知的三个维度，并选择了20个任务来评估大模型的能力。与一些仅有多项选择题的现有基准相比，LawBench 包含了更多与现实世界应用密切相关的任务类型，如法律实体识别、阅读理解、犯罪金额计算和咨询等。
+
+- [LegalBench](https://github.com/HazyResearch/legalbench)
+  ![](https://img.shields.io/github/stars/HazyResearch/legalbench.svg?style=social)
+  [[paper](https://arxiv.org/abs/2308.11462)]
+  ![](https://img.shields.io/badge/法律-blue) 
+  - LegalBench 是一个面向美国法律体系的法律评测基准，包含162个法律推理任务。
+    
 - [LEXTREME](https://github.com/JoelNiklaus/LEXTREME)
   ![](https://img.shields.io/github/stars/JoelNiklaus/LEXTREME.svg?style=social)
   [[paper](https://arxiv.org/abs/2301.13126)]
