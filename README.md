@@ -16,7 +16,8 @@
 欢迎大家贡献本项目未收录的开源模型、数据集、评测基准等内容，一起推动大模型赋能各行各业！
 
 ## 🔔 更新
-- [2023/10/03] 增加两个法律评测基准，分别为面向中国法律体系的 [LawBench](https://github.com/open-compass/LawBench) 和美国法律体系 [LegalBench](https://github.com/HazyResearch/legalbench)。
+- [2023/10/05] 增加心理大模型[ChatPsychiatrist](https://github.com/EmoCareAI/ChatPsychiatrist)、金融大模型[InvestLM](https://github.com/AbaciNLP/InvestLM)、农业大模型[AgriGPT](https://github.com/AgriGPTs/AgriGPTs)和医疗大模型[WiNGPT2](https://github.com/winninghealth/WiNGPT2)。
+- [2023/10/03] 增加两个法律评测基准，分别为面向中国法律体系的 [LawBench](https://github.com/open-compass/LawBench) 和美国法律体系的 [LegalBench](https://github.com/HazyResearch/legalbench)。
 - [2023/10/01] 增加[DISC-LawLLM](https://github.com/FudanDISC/DISC-LawLLM)，由复旦大学开源的旨在为用户提供专业、智能、全面的法律服务的法律领域大模型。增加[FinGLM](https://github.com/MetaGLM/FinGLM)，致力于构建一个开放的、公益的、持久的金融大模型项目，利用开源开放来促进「AI+金融」。
 - [2023/9/25] 更新[Qwen](https://github.com/QwenLM/Qwen)，新增Qwen-14B和Qwen-14B-Chat模型，并更新Qwen-7B和Qwen-7B-Chat模型。相比原版Qwen-7B，新版使用更多训练数据 (2.4T token)，序列长度从2048扩展至8192。整体中文能力以及代码能力提升较多。
 - [2023/9/22] 增加[InternLM(书生•浦语)](https://github.com/InternLM/InternLM)，上海AI实验室与商汤科技联合香港中文大学和复旦大学开源的多语基座模型。
@@ -58,6 +59,15 @@
 
 #### 🏥 医疗
 
+- [WiNGPT2](https://github.com/winninghealth/WiNGPT2)
+  ![](https://img.shields.io/github/stars/winninghealth/WiNGPT2.svg?style=social)
+  - WiNGPT是一个基于GPT的医疗垂直领域大模型，旨在将专业的医学知识、医疗信息、数据融会贯通，为医疗行业提供智能化的医疗问答、诊断支持和医学知识等信息服务，提高诊疗效率和医疗服务质量。
+    
+- [ChatPsychiatrist](https://github.com/EmoCareAI/ChatPsychiatrist)
+  ![](https://img.shields.io/github/stars/EmoCareAI/ChatPsychiatrist.svg?style=social)
+  [[paper](https://arxiv.org/abs/2309.15461)]
+  - 该项目开源了基于LLaMA-7B微调得到的心理大模型ChatPsychiatrist，该模型可以迅速识别心理问题，并提供量身定制的治疗建议。
+    
 - [Zhongjing-LLaMA (仲景)](https://github.com/SupritYoung/Zhongjing)
   ![](https://img.shields.io/github/stars/SupritYoung/Zhongjing.svg?style=social)
   [[paper](https://arxiv.org/abs/2308.03549)]
@@ -220,6 +230,11 @@
 
 #### 💰 金融
 
+- [InvestLM](https://github.com/AbaciNLP/InvestLM)
+  ![](https://img.shields.io/github/stars/AbaciNLP/InvestLM.svg?style=social)
+  [[paper](https://arxiv.org/abs/2309.13064)]
+  - 该项目开源了基于LLaMA-65B微调得到的英文金融大模型。
+    
 - [FinGLM](https://github.com/MetaGLM/FinGLM)
   ![](https://img.shields.io/github/stars/MetaGLM/FinGLM.svg?style=social)
   - 致力于构建一个开放的、公益的、持久的金融大模型项目，利用开源开放来促进「AI+金融」。
@@ -270,6 +285,11 @@
   - 该项目开源了针对教育垂直领域的对话大模型，主要研究以预训练大模型为基底的教育对话大模型相关技术，融合多样化的教育垂直领域数据，辅以指令微调、价值观对齐等方法，提供教育场景下自动出题、作业批改、情感支持、课程辅导、高考咨询等丰富功能，服务于广大老师、学生和家长群体，助力实现因材施教、公平公正、富有温度的智能教育。
 
 #### ➕ 其他
+
+- [AgriGPT](https://github.com/AgriGPTs/AgriGPTs)
+  ![](https://img.shields.io/github/stars/AgriGPTs/AgriGPTs.svg?style=social)
+  ![](https://img.shields.io/badge/农业-blue) 
+  - 该项目开源了农业大模型MediaGPT。
 
 - [MediaGPT](https://github.com/IMOSR/MediaGPT)
   ![](https://img.shields.io/github/stars/IMOSR/MediaGPT.svg?style=social)
