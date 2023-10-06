@@ -456,7 +456,7 @@
 
 ### ✨ 点赞历史
 
-[![Star History Chart](https://api.star-history.com/svg?repos=luban-agi/Awesome-Domain-LLM&type=Date)](https://star-history.com/#luban-agi/Awesome-Domain-LLM&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=wuyifan18/Awesome-Domain-LLM&type=Date)](https://star-history.com/#wuyifan18/Awesome-Domain-LLM&Date)
 
 ### 🤝 友情链接
 - [Awesome AIGC Tutorials](https://github.com/luban-agi/Awesome-AIGC-Tutorials)
