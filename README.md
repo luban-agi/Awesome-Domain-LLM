@@ -16,6 +16,7 @@
 欢迎大家贡献本项目未收录的开源模型、数据集、评测基准等内容，一起推动大模型赋能各行各业！
 
 ## 🔔 更新
+- [2023/10/10] 增加由云智慧智能研究院和北航联合研发的面向运维领域的大模型[OWL](https://github.com/HC-Guo/Owl)和评测基准[OWL-Bench](https://github.com/HC-Guo/Owl#owl-bench)。
 - [2023/10/05] 增加心理大模型[ChatPsychiatrist](https://github.com/EmoCareAI/ChatPsychiatrist)、金融大模型[InvestLM](https://github.com/AbaciNLP/InvestLM)、农业大模型[AgriGPT](https://github.com/AgriGPTs/AgriGPTs)和医疗大模型[WiNGPT2](https://github.com/winninghealth/WiNGPT2)。
 - [2023/10/03] 增加两个法律评测基准，分别为面向中国法律体系的 [LawBench](https://github.com/open-compass/LawBench) 和美国法律体系的 [LegalBench](https://github.com/HazyResearch/legalbench)。
 - [2023/10/01] 增加[DISC-LawLLM](https://github.com/FudanDISC/DISC-LawLLM)，由复旦大学开源的旨在为用户提供专业、智能、全面的法律服务的法律领域大模型。增加[FinGLM](https://github.com/MetaGLM/FinGLM)，致力于构建一个开放的、公益的、持久的金融大模型项目，利用开源开放来促进「AI+金融」。
@@ -286,6 +287,12 @@
 
 #### ➕ 其他
 
+- [OWL](https://github.com/HC-Guo/Owl)
+  ![](https://img.shields.io/github/stars/HC-Guo/Owl.svg?style=social)
+  [[paper](https://arxiv.org/abs/2309.09298)]
+  ![](https://img.shields.io/badge/运维-blue) 
+  - 该项目开源了由云智慧智能研究院和北航联合研发的智能运维（AIOps）大语言模型，其在收集的 Owl-Instruct 数据基础上训练而成。此外，由于缺乏智能运维领域的大语言模型的 Benchmark，还建立了 Owl-Bench 评测基准。
+    
 - [AgriGPT](https://github.com/AgriGPTs/AgriGPTs)
   ![](https://img.shields.io/github/stars/AgriGPTs/AgriGPTs.svg?style=social)
   ![](https://img.shields.io/badge/农业-blue) 
@@ -451,6 +458,12 @@
   [[paper](https://arxiv.org/abs/2305.06545)]
   ![](https://img.shields.io/badge/地理-blue) 
   - GeoGLUE是一个由阿里巴巴达摩院与高德联合发布的地理语义理解能力评测基准，旨在推动地理相关文本处理技术和社区的发展。本榜单提炼了其中多个典型场景：地图搜索、电商物流、政府登记、金融交通，并设计了六个核心任务：门址地址要素解析、地理实体对齐、Query-POI库召回、Query-POI相关性排序、地址Query成分分析、WhereWhat切分。
+
+- [OWL-Bench](https://github.com/HC-Guo/Owl)
+  ![](https://img.shields.io/github/stars/HC-Guo/Owl.svg?style=social)
+  [[paper](https://arxiv.org/abs/2309.09298)]
+  ![](https://img.shields.io/badge/运维-blue) 
+  - OWL-Bench 是一个面向运维领域的双语评测基准。它包含 317 个问答题和 1000 个多选题，涵盖了该领域的众多现实工业场景，包括信息安全、应用、系统架构、软件架构、中间件、网络、操作系统、基础设施和数据库这九个不同的子领域。以确保 OWL-Bench 能够展现出多样性。
 
 ## 📎 附录
 
