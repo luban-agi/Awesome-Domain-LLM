@@ -365,8 +365,8 @@
   ![](https://img.shields.io/badge/多学科-blue) 
   - C-Eval是一个由上海交通大学发布的中文基础模型评测基准，包含了13948个多项选择题，涵盖了人文，社科，理工，其他专业四个大方向，52个学科，从中学到大学研究生以及职业考试。
 
-- [AGIEval](https://github.com/microsoft/AGIEval)
-  ![](https://img.shields.io/github/stars/microsoft/AGIEval.svg?style=social)
+- [AGIEval](https://github.com/ruixiangcui/AGIEval)
+  ![](https://img.shields.io/github/stars/ruixiangcui/AGIEval.svg?style=social)
   [[paper](https://arxiv.org/abs/2304.06364)]
   ![](https://img.shields.io/badge/多学科-blue) 
   - AGIEval是一个由微软发布的评测基准，用于评估大模型在人类认知任务中的表现，包含了20个面向普通考生的官方、公开、高标准入学和资格考试，包括普通大学入学考试 (中国高考和美国SAT考试)、法学院入学考试、数学竞赛和律师资格考试、国家公务员考试等。
