@@ -16,10 +16,10 @@
 欢迎大家贡献本项目未收录的开源模型、数据集、评测基准等内容，一起推动大模型赋能各行各业！
 
 ## 🔔 更新
-- [2023/10/19] 增加心理大模型[MentalLLaMA](https://github.com/SteveKGYang/MentalLLaMA)、双语生物医学大模型[Taiyi (太一)](https://github.com/DUTIR-BioNLP/Taiyi-LLM)
+- [2023/10/19] 增加心理大模型[MentalLLaMA](https://github.com/SteveKGYang/MentalLLaMA)、双语生物医学大模型[Taiyi (太一)](https://github.com/DUTIR-BioNLP/Taiyi-LLM)、海洋大模型[OceanGPT](https://www.zjukg.org/project/OceanGPT/)。
 - [2023/10/10] 增加由云智慧智能研究院和北航联合研发的面向运维领域的大模型[OWL](https://github.com/HC-Guo/Owl)和评测基准[OWL-Bench](https://github.com/HC-Guo/Owl#owl-bench)。增加中文法律大模型评测基准[LAiW](https://github.com/Dai-shen/LAiW)。
 - [2023/10/05] 增加心理大模型[ChatPsychiatrist](https://github.com/EmoCareAI/ChatPsychiatrist)、金融大模型[InvestLM](https://github.com/AbaciNLP/InvestLM)、农业大模型[AgriGPT](https://github.com/AgriGPTs/AgriGPTs)和医疗大模型[WiNGPT2](https://github.com/winninghealth/WiNGPT2)。
-- [2023/10/03] 增加两个法律评测基准，分别为面向中国法律体系的 [LawBench](https://github.com/open-compass/LawBench) 和美国法律体系的 [LegalBench](https://github.com/HazyResearch/legalbench)。
+- [2023/10/03] 增加两个法律评测基准，分别为面向中国法律体系的[LawBench](https://github.com/open-compass/LawBench)和美国法律体系的[LegalBench](https://github.com/HazyResearch/legalbench)。
 - [2023/10/01] 增加[DISC-LawLLM](https://github.com/FudanDISC/DISC-LawLLM)，由复旦大学开源的旨在为用户提供专业、智能、全面的法律服务的法律领域大模型。增加[FinGLM](https://github.com/MetaGLM/FinGLM)，致力于构建一个开放的、公益的、持久的金融大模型项目，利用开源开放来促进「AI+金融」。
 - [2023/9/25] 更新[Qwen](https://github.com/QwenLM/Qwen)，新增Qwen-14B和Qwen-14B-Chat模型，并更新Qwen-7B和Qwen-7B-Chat模型。相比原版Qwen-7B，新版使用更多训练数据 (2.4T token)，序列长度从2048扩展至8192。整体中文能力以及代码能力提升较多。
 - [2023/9/22] 增加[InternLM(书生•浦语)](https://github.com/InternLM/InternLM)，上海AI实验室与商汤科技联合香港中文大学和复旦大学开源的多语基座模型。
@@ -297,6 +297,11 @@
   - 该项目开源了针对教育垂直领域的对话大模型，主要研究以预训练大模型为基底的教育对话大模型相关技术，融合多样化的教育垂直领域数据，辅以指令微调、价值观对齐等方法，提供教育场景下自动出题、作业批改、情感支持、课程辅导、高考咨询等丰富功能，服务于广大老师、学生和家长群体，助力实现因材施教、公平公正、富有温度的智能教育。
 
 #### ➕ 其他
+
+- [OceanGPT]([https://github.com/HC-Guo/Owl](https://www.zjukg.org/project/OceanGPT/))
+  [[paper](https://arxiv.org/abs/2310.02031)]
+  ![](https://img.shields.io/badge/海洋-blue) 
+  - 该项目开源了面向海洋学的大模型OceanGPT。
 
 - [OWL](https://github.com/HC-Guo/Owl)
   ![](https://img.shields.io/github/stars/HC-Guo/Owl.svg?style=social)
