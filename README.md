@@ -16,6 +16,7 @@
 欢迎大家贡献本项目未收录的开源模型、数据集、评测基准等内容，一起推动大模型赋能各行各业！
 
 ## 🔔 更新
+- [2023/10/19] 增加心理大模型[MentalLLaMA](https://github.com/SteveKGYang/MentalLLaMA)、双语生物医学大模型[Taiyi (太一)](https://github.com/DUTIR-BioNLP/Taiyi-LLM)
 - [2023/10/10] 增加由云智慧智能研究院和北航联合研发的面向运维领域的大模型[OWL](https://github.com/HC-Guo/Owl)和评测基准[OWL-Bench](https://github.com/HC-Guo/Owl#owl-bench)。增加中文法律大模型评测基准[LAiW](https://github.com/Dai-shen/LAiW)。
 - [2023/10/05] 增加心理大模型[ChatPsychiatrist](https://github.com/EmoCareAI/ChatPsychiatrist)、金融大模型[InvestLM](https://github.com/AbaciNLP/InvestLM)、农业大模型[AgriGPT](https://github.com/AgriGPTs/AgriGPTs)和医疗大模型[WiNGPT2](https://github.com/winninghealth/WiNGPT2)。
 - [2023/10/03] 增加两个法律评测基准，分别为面向中国法律体系的 [LawBench](https://github.com/open-compass/LawBench) 和美国法律体系的 [LegalBench](https://github.com/HazyResearch/legalbench)。
@@ -59,6 +60,15 @@
 ### 🧩 领域模型
 
 #### 🏥 医疗
+
+- [Taiyi (太一)](https://github.com/DUTIR-BioNLP/Taiyi-LLM)
+  ![](https://img.shields.io/github/stars/DUTIR-BioNLP/Taiyi-LLM.svg?style=social)
+  - 该项目开源了中英双语生物医学大模型Taiyi (太一)，旨在探索大模型在生物医学领域中双语自然语言处理多任务的能力。
+
+- [MentalLLaMA](https://github.com/SteveKGYang/MentalLLaMA)
+  ![](https://img.shields.io/github/stars/SteveKGYang/MentalLLaMA.svg?style=social)
+  [[paper](https://arxiv.org/abs/2309.13567)]
+  - 该项目开源了心理大模型MentalLLaMA，可以用于社交媒体上可解释的心理健康分析。
 
 - [WiNGPT2](https://github.com/winninghealth/WiNGPT2)
   ![](https://img.shields.io/github/stars/winninghealth/WiNGPT2.svg?style=social)
@@ -121,9 +131,9 @@
   ![](https://img.shields.io/github/stars/thomas-yanxin/Sunsimiao.svg?style=social)
   - 该项目开源了中文医疗大模型Sunsimiao，该模型基于baichuan-7B和ChatGLM-6B底座模型在十万级高质量的中文医疗数据中微调而得。
 
-- [CareLlama (关怀羊驼)](https://github.com/itsharex/CareLlama)
-  ![](https://img.shields.io/github/stars/itsharex/CareLlama.svg?style=social)
-  - 该项目开源了医疗大模型CareLlama，同时它收集了数十个公开可用的医疗微调数据集和开放可用的医疗大语言模型以促进医疗LLM快速发展。
+- [CareGPT](https://github.com/WangRongsheng/CareGPT)
+  ![](https://img.shields.io/github/stars/WangRongsheng/CareGPT.svg?style=social)
+  - 该项目开源了医疗大模型CareGPT (关怀GPT)，同时它集合了数十个公开可用的医疗微调数据集和开放可用的医疗大语言模型，包含LLM的训练、测评、部署等以促进医疗LLM快速发展。
 
 - [DISC-MedLLM](https://github.com/FudanDISC/DISC-MedLLM)
   ![](https://img.shields.io/github/stars/FudanDISC/DISC-MedLLM.svg?style=social)
