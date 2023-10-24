@@ -325,10 +325,10 @@
   ![](https://img.shields.io/badge/电商-blue) 
   - 该项目开源了电商大模型EcomGPT，基于BLOOMZ在电商领域指令微调数据集EcomInstruct进行微调，在12个电商评测数据集上的人工评估超过ChatGPT。
 
-- [StarGLM](https://github.com/Yu-Yang-Li/StarGLM)
-  ![](https://img.shields.io/github/stars/Yu-Yang-Li/StarGLM.svg?style=social)
+- [StarWhisper (星语)](https://github.com/Yu-Yang-Li/StarWhisper)
+  ![](https://img.shields.io/github/stars/Yu-Yang-Li/StarWhisper.svg?style=social)
   ![](https://img.shields.io/badge/天文-blue) 
-  - 该项目开源了天文大模型StarGLM，整合司天工程相关的语料数据与知识库资料，训练得到天文大模型StarGLM，以期缓解大语言模型在天文通用知识和部分前沿变星领域的幻觉现象，为接下来可处理天文多模态任务、部署于望远镜阵列的观测Agent——司天大脑（数据智能处理）打下基础。
+  - 在天文科学教育联盟、集思谱文献平台、司天工程的支持下，基于天文大模型StarGLM开发经验，我们进一步训练了星语StarWhisper系列模型(包括6B,7B,13B,14B,20B)。以进一步缓解大模型在天文通用知识的幻觉现象，为接下来可处理天文多模态任务、部署于望远镜阵列的科学具身智能——司天大脑打下基础。
 
 - [K2](https://github.com/davendw49/k2)
   ![](https://img.shields.io/github/stars/davendw49/k2.svg?style=social)
@@ -418,9 +418,9 @@
     
 - [PromptCBLUE](https://github.com/michael-wzhu/PromptCBLUE)
   ![](https://img.shields.io/github/stars/michael-wzhu/PromptCBLUE.svg?style=social)
-  [[paper](https://arxiv.org/abs/2308.04823)]
+  [[paper](https://arxiv.org/abs/2310.14151)]
   ![](https://img.shields.io/badge/医疗-blue) 
-  - PromptCBLUE 是一个面向中文医疗场景的评测基准，通过对CBLUE基准进行二次开发，将16种不同的医疗场景NLP任务全部转化为基于提示的语言生成任务。
+  - PromptCBLUE是一个面向中文医疗场景的评测基准，通过对CBLUE基准进行二次开发，将16种不同的医疗场景NLP任务全部转化为基于提示的语言生成任务。
 
 - [LAiW](https://github.com/Dai-shen/LAiW)
   ![](https://img.shields.io/github/stars/Dai-shen/LAiW.svg?style=social)
