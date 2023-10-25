@@ -100,6 +100,7 @@
     
 - [BianQue (扁鹊)](https://github.com/scutcyr/BianQue)
   ![](https://img.shields.io/github/stars/scutcyr/BianQue.svg?style=social)
+  [[paper](https://arxiv.org/abs/2310.15896)]
   - 该项目开源了生活空间健康大模型。结合当前开源的中文医疗问答数据集（MedDialog-CN、IMCS-V2、CHIP-MDCFNPC、MedDG、cMedQA2、Chinese-medical-dialogue-data），分析其中的单轮/多轮特性以及医生问询特性，结合自建的生活空间健康对话大数据，构建了千万级别规模的扁鹊健康大数据BianQueCorpus，基于扁鹊健康大数据BianQueCorpus，选择ChatGLM-6B作为初始化模型，经过全量参数的指令微调训练得到BianQue。
     
 - [HuatuoGPT (华佗)](https://github.com/FreedomIntelligence/HuatuoGPT)
