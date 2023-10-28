@@ -16,6 +16,7 @@
 欢迎大家贡献本项目未收录的开源模型、数据集、评测基准等内容，一起推动大模型赋能各行各业！
 
 ## 🔔 更新
+- [2023/10/28] 增加金融大模型[DISC-FinLLM](https://github.com/FudanDISC/DISC-FinLLM)、医学大模型[AlpaCare](https://github.com/XZhang97666/AlpaCare)、海洋大模型[MarineGPT](https://github.com/hkust-vgd/MarineGPT)
 - [2023/10/19] 增加心理大模型[MentalLLaMA](https://github.com/SteveKGYang/MentalLLaMA)、双语生物医学大模型[Taiyi (太一)](https://github.com/DUTIR-BioNLP/Taiyi-LLM)、海洋大模型[OceanGPT](https://www.zjukg.org/project/OceanGPT/)。
 - [2023/10/10] 增加由云智慧智能研究院和北航联合研发的面向运维领域的大模型[OWL](https://github.com/HC-Guo/Owl)和评测基准[OWL-Bench](https://github.com/HC-Guo/Owl#owl-bench)。增加中文法律大模型评测基准[LAiW](https://github.com/Dai-shen/LAiW)。
 - [2023/10/05] 增加心理大模型[ChatPsychiatrist](https://github.com/EmoCareAI/ChatPsychiatrist)、金融大模型[InvestLM](https://github.com/AbaciNLP/InvestLM)、农业大模型[AgriGPT](https://github.com/AgriGPTs/AgriGPTs)和医疗大模型[WiNGPT2](https://github.com/winninghealth/WiNGPT2)。
@@ -61,6 +62,11 @@
 
 #### 🏥 医疗
 
+- [AlpaCare](https://github.com/XZhang97666/AlpaCare)
+  ![](https://img.shields.io/github/stars/XZhang97666/AlpaCare.svg?style=social)
+  [[paper](https://arxiv.org/abs/2310.14558)]
+  - 该项目开源了医学大模型AlpaCare，在LLaMA上微调得到。
+    
 - [Taiyi (太一)](https://github.com/DUTIR-BioNLP/Taiyi-LLM)
   ![](https://img.shields.io/github/stars/DUTIR-BioNLP/Taiyi-LLM.svg?style=social)
   - 该项目开源了中英双语生物医学大模型Taiyi (太一)，旨在探索大模型在生物医学领域中双语自然语言处理多任务的能力。
@@ -242,6 +248,11 @@
 
 #### 💰 金融
 
+- [DISC-FinLLM](https://github.com/FudanDISC/DISC-FinLLM)
+  ![](https://img.shields.io/github/stars/FudanDISC/DISC-FinLLM.svg?style=social)
+  [[paper](https://arxiv.org/abs/2310.15205)]
+  - DISC-FinLLM是一个金融领域的大语言模型，是由面向不同金融场景的4个模组：金融咨询、金融文本分析、金融计算、金融知识检索问答构成的多专家智慧金融系统。这些模组分别在金融NLP任务、人类试题、资料分析和时事分析等四个评测中展现出明显优势，证明了DISC-FinLLM能为广泛的金融领域提供强有力的支持。
+
 - [InvestLM](https://github.com/AbaciNLP/InvestLM)
   ![](https://img.shields.io/github/stars/AbaciNLP/InvestLM.svg?style=social)
   [[paper](https://arxiv.org/abs/2309.13064)]
@@ -299,7 +310,12 @@
 
 #### ➕ 其他
 
-- [OceanGPT]([https://github.com/HC-Guo/Owl](https://www.zjukg.org/project/OceanGPT/))
+- [MarineGPT](https://github.com/hkust-vgd/MarineGPT)
+  [[paper](https://arxiv.org/abs/2310.13596)]
+  ![](https://img.shields.io/badge/海洋-blue) 
+  - 该项目开源了首个专为海洋领域设计的视觉语言模型MarineGPT。
+    
+- [OceanGPT]((https://www.zjukg.org/project/OceanGPT))
   [[paper](https://arxiv.org/abs/2310.02031)]
   ![](https://img.shields.io/badge/海洋-blue) 
   - 该项目开源了面向海洋学的大模型OceanGPT。
