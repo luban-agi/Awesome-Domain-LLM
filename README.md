@@ -16,7 +16,8 @@
 欢迎大家贡献本项目未收录的开源模型、数据集、评测基准等内容，一起推动大模型赋能各行各业！
 
 ## 🔔 更新
-- [2023/10/28] 增加金融大模型[DISC-FinLLM](https://github.com/FudanDISC/DISC-FinLLM)、医学大模型[AlpaCare](https://github.com/XZhang97666/AlpaCare)、海洋大模型[MarineGPT](https://github.com/hkust-vgd/MarineGPT)
+- [2023/11/01] 增加由蚂蚁集团联合北京大学发布的DevOps领域大模型[DevOps-Model](https://github.com/codefuse-ai/CodeFuse-DevOps-Model)和评测基准[DevOps-Eval](https://github.com/codefuse-ai/codefuse-devops-eval)。
+- [2023/10/28] 增加金融大模型[DISC-FinLLM](https://github.com/FudanDISC/DISC-FinLLM)、医学大模型[AlpaCare](https://github.com/XZhang97666/AlpaCare)、海洋大模型[MarineGPT](https://github.com/hkust-vgd/MarineGPT)。
 - [2023/10/19] 增加心理大模型[MentalLLaMA](https://github.com/SteveKGYang/MentalLLaMA)、双语生物医学大模型[Taiyi (太一)](https://github.com/DUTIR-BioNLP/Taiyi-LLM)、海洋大模型[OceanGPT](https://www.zjukg.org/project/OceanGPT/)。
 - [2023/10/10] 增加由云智慧智能研究院和北航联合研发的面向运维领域的大模型[OWL](https://github.com/HC-Guo/Owl)和评测基准[OWL-Bench](https://github.com/HC-Guo/Owl#owl-bench)。增加中文法律大模型评测基准[LAiW](https://github.com/Dai-shen/LAiW)。
 - [2023/10/05] 增加心理大模型[ChatPsychiatrist](https://github.com/EmoCareAI/ChatPsychiatrist)、金融大模型[InvestLM](https://github.com/AbaciNLP/InvestLM)、农业大模型[AgriGPT](https://github.com/AgriGPTs/AgriGPTs)和医疗大模型[WiNGPT2](https://github.com/winninghealth/WiNGPT2)。
@@ -310,6 +311,11 @@
 
 #### ➕ 其他
 
+- [DevOps-Model](https://github.com/codefuse-ai/CodeFuse-DevOps-Model)
+  ![](https://img.shields.io/github/stars/codefuse-ai/CodeFuse-DevOps-Model.svg?style=social)
+  ![](https://img.shields.io/badge/运维-blue) 
+  - 该项目开源了由蚂蚁集团联合北京大学研发的DevOps领域大模型DevOps-Model。
+
 - [MarineGPT](https://github.com/hkust-vgd/MarineGPT)
   [[paper](https://arxiv.org/abs/2310.13596)]
   ![](https://img.shields.io/badge/海洋-blue) 
@@ -503,6 +509,11 @@
   [[paper](https://arxiv.org/abs/2309.09298)]
   ![](https://img.shields.io/badge/运维-blue) 
   - OWL-Bench 是一个面向运维领域的双语评测基准。它包含 317 个问答题和 1000 个多选题，涵盖了该领域的众多现实工业场景，包括信息安全、应用、系统架构、软件架构、中间件、网络、操作系统、基础设施和数据库这九个不同的子领域。以确保 OWL-Bench 能够展现出多样性。
+
+- [DevOps-Eval](https://github.com/codefuse-ai/codefuse-devops-eval)
+  ![](https://img.shields.io/github/stars/codefuse-ai/codefuse-devops-eval.svg?style=social)
+  ![](https://img.shields.io/badge/运维-blue) 
+  - DevOps-Eval是由蚂蚁集团联合北京大学发布的面向DevOps领域的大语言模型评测基准。
 
 ## 📎 附录
 
