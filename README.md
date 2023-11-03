@@ -528,5 +528,3 @@
   - 该项目收集了关于工具学习的资源，包括论文、框架和应用。
 - [Awesome LLM reasoning](https://github.com/luban-agi/Awesome-LLM-reasoning)
   - 该项目收集了关于大语言模型推理方面的资源，包括论文、数据集等。
-- [WayToAGI](http://waytoagi.com/)
-  - WaytoAGI.com 是最全面的中文AIGC资源知识库，包括最新AI动态、提示词、学习指南等，长期保持活跃更新。
