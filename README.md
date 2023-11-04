@@ -184,15 +184,17 @@
 
 - [MeChat](https://github.com/qiuhuachuan/smile)
   ![](https://img.shields.io/github/stars/qiuhuachuan/smile.svg?style=social)
+  [[paper](https://arxiv.org/abs/2305.00450)]
   - 该项目开源了中文心理健康支持对话大模型与数据集。模型由ChatGLM-6B LoRA 16-bit指令微调得到。数据集通过ChatGPT改写真实的心理互助QA为多轮的心理健康支持多轮对话，该数据集含有56k个多轮对话，其对话主题、词汇和篇章语义更加丰富多样，更加符合在长程多轮对话的应用场景。
   
 - [SoulChat (灵心)](https://github.com/scutcyr/SoulChat)
   ![](https://img.shields.io/github/stars/scutcyr/SoulChat.svg?style=social)
+  [[paper](https://arxiv.org/abs/2311.00273)]
   - 该项目开源了心理健康大模型SoulChat (灵心)，该模型以ChatGLM-6B作为初始化模型，经过百万规模心理咨询领域中文长文本指令与多轮共情对话数据联合指令微调得到。
 
 - [MindChat (漫谈)](https://github.com/X-D-Lab/MindChat)
   ![](https://img.shields.io/github/stars/X-D-Lab/MindChat.svg?style=social)
-  - 该项目开源了心理大模型MindChat (漫谈)，该模型采用了经过人工清洗的约20万条的高质量多轮心理对话数据进行训练，涵盖工作、家庭、学习、生活、社交、安全等多个方面，期望从心理咨询、心理评估、心理诊断、心理治疗四个维度帮助人们纾解心理压力与解决心理困惑, 提高心理健康水平. 
+  - 该项目开源了心理大模型MindChat (漫谈)，该模型采用了经过人工清洗的约20万条的高质量多轮心理对话数据进行训练，涵盖工作、家庭、学习、生活、社交、安全等多个方面，期望从心理咨询、心理评估、心理诊断、心理治疗四个维度帮助人们纾解心理压力与解决心理困惑, 提高心理健康水平。
 
 - [QiaoBan (巧板)](https://github.com/HIT-SCIR-SC/QiaoBan)
   ![](https://img.shields.io/github/stars/HIT-SCIR-SC/QiaoBan.svg?style=social)
