@@ -524,6 +524,8 @@
 [![Star History Chart](https://api.star-history.com/svg?repos=wuyifan18/Awesome-Domain-LLM&type=Date)](https://star-history.com/#wuyifan18/Awesome-Domain-LLM&Date)
 
 ### 🤝 友情链接
+- [Awesome Code LLM](https://github.com/codefuse-ai/Awesome-Code-LLM)
+  - 该项目收集了代码大模型相关论文，并整理出一篇综述。
 - [Awesome AIGC Tutorials](https://github.com/luban-agi/Awesome-AIGC-Tutorials)
   - 该项目收集了关于AIGC的各种精选教程和资源，既适合初学者也适合进阶AI爱好者。 
 - [Awesome Tool Learning](https://github.com/luban-agi/Awesome-Tool-Learning)
