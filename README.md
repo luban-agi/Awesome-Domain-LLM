@@ -76,6 +76,7 @@
     
 - [Taiyi (太一)](https://github.com/DUTIR-BioNLP/Taiyi-LLM)
   ![](https://img.shields.io/github/stars/DUTIR-BioNLP/Taiyi-LLM.svg?style=social)
+  [[paper](https://arxiv.org/abs/2311.11608)]
   - 该项目开源了中英双语生物医学大模型Taiyi (太一)，旨在探索大模型在生物医学领域中双语自然语言处理多任务的能力。
 
 - [MentalLLaMA](https://github.com/SteveKGYang/MentalLLaMA)
