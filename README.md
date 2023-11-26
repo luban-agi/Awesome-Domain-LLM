@@ -16,6 +16,7 @@
 欢迎大家贡献本项目未收录的开源模型、数据集、评测基准等内容，一起推动大模型赋能各行各业！
 
 ## 🔔 更新
+- [2023/11/26] 增强网络安全大模型[SecGPT](https://github.com/Clouditera/secgpt)、医疗大模型[ChiMed-GPT](https://github.com/synlp/ChiMed-GPT)、金融大模型[Tongyi-Finance-14B](https://modelscope.cn/models/TongyiFinance/Tongyi-Finance-14B/summary)、金融评测基准[FinanceBench](https://github.com/patronus-ai/financebench)和[CFBenchmark](https://github.com/TongjiFinLab/CFBenchmark)。
 - [2023/11/01] 增加由蚂蚁集团联合北京大学发布的DevOps领域大模型[DevOps-Model](https://github.com/codefuse-ai/CodeFuse-DevOps-Model)和评测基准[DevOps-Eval](https://github.com/codefuse-ai/codefuse-devops-eval)。
 - [2023/10/28] 增加金融大模型[DISC-FinLLM](https://github.com/FudanDISC/DISC-FinLLM)、医学大模型[AlpaCare](https://github.com/XZhang97666/AlpaCare)、海洋大模型[MarineGPT](https://github.com/hkust-vgd/MarineGPT)。
 - [2023/10/19] 增加心理大模型[MentalLLaMA](https://github.com/SteveKGYang/MentalLLaMA)、双语生物医学大模型[Taiyi (太一)](https://github.com/DUTIR-BioNLP/Taiyi-LLM)、海洋大模型[OceanGPT](https://www.zjukg.org/project/OceanGPT/)。
@@ -62,6 +63,11 @@
 ### 🧩 领域模型
 
 #### 🏥 医疗
+
+- [ChiMed-GPT](https://github.com/synlp/ChiMed-GPT)
+  ![](https://img.shields.io/github/stars/synlp/ChiMed-GPT.svg?style=social)
+  [[paper](https://arxiv.org/abs/2311.06025)]
+  - ChiMed-GPT 是一款基于 Ziya-v2 的中文医疗大模型。在Ziya-v2的基础上，综合进行了预训练、监督式微调（SFT）和来自人类反馈的强化学习（RLHF）。
 
 - [AlpaCare](https://github.com/XZhang97666/AlpaCare)
   ![](https://img.shields.io/github/stars/XZhang97666/AlpaCare.svg?style=social)
@@ -251,6 +257,9 @@
 
 #### 💰 金融
 
+- [Tongyi-Finance-14B](https://modelscope.cn/models/TongyiFinance/Tongyi-Finance-14B/summary)
+  - 通义金融-14B（Tongyi-Finance-14B）是针对对金融行业推出的大语言模型，基于通义千问基础模型进行行业语料增量学习，强化金融领域知识和场景应用能力，覆盖金融知识问答、文本分类、信息抽取、文本创作、阅读理解、逻辑推理、多模态、Coding等能力象限。
+
 - [DISC-FinLLM](https://github.com/FudanDISC/DISC-FinLLM)
   ![](https://img.shields.io/github/stars/FudanDISC/DISC-FinLLM.svg?style=social)
   [[paper](https://arxiv.org/abs/2310.15205)]
@@ -318,6 +327,12 @@
   ![](https://img.shields.io/badge/运维-blue) 
   - 该项目开源了由蚂蚁集团联合北京大学研发的DevOps领域大模型DevOps-Model。
 
+- [OWL](https://github.com/HC-Guo/Owl)
+  ![](https://img.shields.io/github/stars/HC-Guo/Owl.svg?style=social)
+  [[paper](https://arxiv.org/abs/2309.09298)]
+  ![](https://img.shields.io/badge/运维-blue) 
+  - 该项目开源了由云智慧智能研究院和北航联合研发的智能运维（AIOps）大语言模型，其在收集的 Owl-Instruct 数据基础上训练而成。此外，由于缺乏智能运维领域的大语言模型的 Benchmark，还建立了 Owl-Bench 评测基准。
+ 
 - [MarineGPT](https://github.com/hkust-vgd/MarineGPT)
   [[paper](https://arxiv.org/abs/2310.13596)]
   ![](https://img.shields.io/badge/海洋-blue) 
@@ -327,12 +342,6 @@
   [[paper](https://arxiv.org/abs/2310.02031)]
   ![](https://img.shields.io/badge/海洋-blue) 
   - 该项目开源了面向海洋学的大模型OceanGPT。
-
-- [OWL](https://github.com/HC-Guo/Owl)
-  ![](https://img.shields.io/github/stars/HC-Guo/Owl.svg?style=social)
-  [[paper](https://arxiv.org/abs/2309.09298)]
-  ![](https://img.shields.io/badge/运维-blue) 
-  - 该项目开源了由云智慧智能研究院和北航联合研发的智能运维（AIOps）大语言模型，其在收集的 Owl-Instruct 数据基础上训练而成。此外，由于缺乏智能运维领域的大语言模型的 Benchmark，还建立了 Owl-Bench 评测基准。
     
 - [AgriGPT](https://github.com/AgriGPTs/AgriGPTs)
   ![](https://img.shields.io/github/stars/AgriGPTs/AgriGPTs.svg?style=social)
@@ -365,6 +374,11 @@
   ![](https://img.shields.io/github/stars/DUOMO/TransGPT.svg?style=social)
   ![](https://img.shields.io/badge/交通-blue) 
   - 该项目开源了交通大模型TransGPT (致远)，主要致力于在真实交通行业中发挥实际价值。它能够实现交通情况预测、智能咨询助手、公共交通服务、交通规划设计、交通安全教育、协助管理、交通事故报告和分析、自动驾驶辅助系统等功能。TransGPT作为一个通用常识交通大模型，可以为道路工程、桥梁工程、隧道工程、公路运输、水路运输、城市公共交通运输、交通运输经济、交通运输安全等行业提供通识常识。以此为基础，可以落脚到特定的交通应用场景中。
+
+- [SecGPT](https://github.com/Clouditera/secgpt)
+  ![](https://img.shields.io/github/stars/Clouditera/secgpt.svg?style=social)
+  ![](https://img.shields.io/badge/安全-blue) 
+  - 该项目开源了网络安全大模型SecGPT，该模型基于Baichuan-13B采用Lora做预训练和SFT训练，还开源了相关预训练和指令微调数据集。
 
 - [AutoAudit](https://github.com/ddzipp/AutoAudit)
   ![](https://img.shields.io/github/stars/ddzipp/AutoAudit.svg?style=social)
@@ -476,6 +490,18 @@
   [[paper](https://arxiv.org/abs/2110.00976)]
   ![](https://img.shields.io/badge/法律-blue) 
   - LexGLUE是一个英文法律评测基准。
+
+- [CFBenchmark](https://github.com/TongjiFinLab/CFBenchmark)
+  ![](https://img.shields.io/github/stars/TongjiFinLab/CFBenchmark.svg?style=social)
+  [[paper](https://arxiv.org/abs/2311.05812)]
+  ![](https://img.shields.io/badge/金融-blue) 
+  - CFBenchmark是一个旨在评估大语言模型在中文金融场景下辅助工作的评测基准。CFBenchmark的基础版本包括3917个金融文本涵盖三个方面和八个任务，从金融识别、金融分类、金融生成三个方面进行组织。
+
+- [FinanceBench](https://github.com/patronus-ai/financebench)
+  ![](https://img.shields.io/github/stars/patronus-ai/financebench.svg?style=social)
+  [[paper](https://arxiv.org/abs/2311.11944)]
+  ![](https://img.shields.io/badge/金融-blue) 
+  - FinanceBench是一个用于评估开放式金融问题问答的评测基准，包含 10,231 个有关上市公司的问题，以及相应的答案。
     
 - [FinEval](https://github.com/SUFE-AIFLM-Lab/FinEval)
   ![](https://img.shields.io/github/stars/SUFE-AIFLM-Lab/FinEval.svg?style=social)
