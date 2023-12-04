@@ -56,7 +56,7 @@
 |:------------------------------------------------------------:|:----------------------------------------------:|:-------------------------------------------:|:-----:|
 | [LLaMA2](https://github.com/facebookresearch/llama)          | 7B/7B-Chat <br> 13B/13B-Chat <br> 70B/70B-Chat | [Meta](https://ai.meta.com/)                | [paper](https://arxiv.org/abs/2307.09288)                             |
 | [ChatGLM3-6B](https://github.com/THUDM/ChatGLM3)             | 6B-Base/6B/6B-32K                              | [清华大学](https://github.com/THUDM/ChatGLM3)| [paper](https://arxiv.org/abs/2210.02414) 
-| [Qwen](https://github.com/QwenLM/Qwen)                       | 7B/7B-Chat <br> 14B/14B-Chat                   | [阿里云](https://qianwen.aliyun.com/)        | [paper](https://arxiv.org/abs/2309.16609)|
+| [Qwen](https://github.com/QwenLM/Qwen)                       | 1.8B/1.8B-Chat <br> 7B/7B-Chat <br> 14B/14B-Chat <br> 72B/72B-Chat | [阿里云](https://qianwen.aliyun.com/)        | [paper](https://arxiv.org/abs/2309.16609)|
 | [Baichuan2](https://github.com/baichuan-inc/Baichuan2)       | 7B/7B-Chat <br> 13B/13B-Chat                   | [百川智能](https://www.baichuan-ai.com/home) | [paper](https://arxiv.org/abs/2309.10305)
 | [InternLM](https://github.com/InternLM/InternLM)             | 7B/7B-Chat <br> 20B/20B-Chat                   | [上海AI实验室](https://internlm.intern-ai.org.cn) | [paper](https://github.com/InternLM/InternLM-techreport/blob/main/InternLM.pdf)
 
