@@ -553,8 +553,10 @@
 ### 🤝 友情链接
 - [Awesome Code LLM](https://github.com/codefuse-ai/Awesome-Code-LLM)
   - 该项目收集了代码大模型相关论文，并整理出一篇综述。
+- [CodeFuse-ChatBot](https://github.com/codefuse-ai/codefuse-chatbot)
+  - CodeFuse-ChatBot是由蚂蚁CodeFuse团队开发的开源AI智能助手，致力于简化和优化软件开发生命周期中的各个环节。 
 - [Awesome AIGC Tutorials](https://github.com/luban-agi/Awesome-AIGC-Tutorials)
-  - 该项目收集了关于AIGC的各种精选教程和资源，既适合初学者也适合进阶AI爱好者。 
+  - 该项目收集了关于AIGC的各种精选教程和资源，既适合初学者也适合进阶AI爱好者。
 - [Awesome Tool Learning](https://github.com/luban-agi/Awesome-Tool-Learning)
   - 该项目收集了关于工具学习的资源，包括论文、框架和应用。
 - [Awesome LLM reasoning](https://github.com/luban-agi/Awesome-LLM-reasoning)
