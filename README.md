@@ -560,4 +560,5 @@
 - [Awesome Tool Learning](https://github.com/luban-agi/Awesome-Tool-Learning)
   - 该项目收集了关于工具学习的资源，包括论文、框架和应用。
 - [Awesome LLM reasoning](https://github.com/luban-agi/Awesome-LLM-reasoning)
+- [CCHub](https://github.com/Moresl/cchub) - A desktop control panel for the Claude Code / Codex / Gemini CLI ecosystem. Manage MCP servers, config profiles, agent skills, CLAUDE.md, hooks, and workflow templates from a single Tauri app (Windows / macOS / Linux).
   - 该项目收集了关于大语言模型推理方面的资源，包括论文、数据集等。
