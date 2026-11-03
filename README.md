@@ -29,6 +29,9 @@
 - [2023/9/15] 增加[Zhongjing-LLaMA (仲景)](https://github.com/SupritYoung/Zhongjing)，包含预训练、有监督微调和RLHF完整训练流程的中文医学大模型。
 - [2023/9/14] 增加[WeaverBird (织工鸟)](https://github.com/ant-research/fin_domain_llm)，可接入本地知识与网络搜索能力的金融领域对话大模型。
 - [2023/9/13] 增加[夫子•明察](https://github.com/irlab-sdu/fuzi.mingcha)，由山东大学、浪潮云、中国政法大学联合研发的司法大模型。
+- [PromptImage](https://promptimage.cloud) - Free AI image & video studio with a prompt library (signup credits, multi-model). Freemium
+- [TeslaWraps](https://teslawraps.design) - Browser Tesla Paint Shop wrap designer — core editing + PNG export free without account; optional AI credit…
+- [GrokVideo Studio](https://grokvideogenerator.dev) - Independent web app for text/image-to-video via Grok Imagine API (Free Trial, 20 credits). Not an official …
 
 ## 📜 目录
 
